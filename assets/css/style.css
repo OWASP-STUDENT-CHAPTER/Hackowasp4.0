@@ -1,0 +1,31 @@
+*{
+    cursor: none;
+}
+
+body{
+    background-color: black;
+}
+
+.cursor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* border: 5px solid white ; */
+    background-color: rgba(255, 255, 255, 0.432);
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%, -50%);
+}
+
+.cursor-inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* border: 1px solid white; */
+    background-color: white;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    transform: translate(100%, 100%);
+}
