@@ -1,10 +1,120 @@
 *{
-    cursor: none;
+    /* cursor: none;     */
+    /* caret-color: black; */
 }
 
 body{
+    /* background-color: black; */
+    background-image: url("../media/bg.svg");
+    background-size: cover;
+    /* background-color: white; */
+}
+
+/* Top Nav  */
+.topnav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: chocolate;
+    top: 0;
+}
+
+.topnav p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 30px;
+}
+
+/* Bottom Nav  */
+.bottomnav-area{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+}
+
+.bottomnav{
+    position: fixed;
+    background-color: #e5b6a5de;
+    border: 1px solid grey;
+    width: 60%;
+    height: 80px;
+    border-radius: 10px;
+}
+
+/* Landing Page  */
+
+.landing{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+}
+
+.landingcard{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 60vh;
+    width: 100vh;
+}
+
+.landingcard-header{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.circle1, .circle2{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 25px;
     background-color: black;
 }
+
+.circle2{
+    background-color: white;
+    border: 2px solid black;
+}
+
+.landingcard-header p{
+    padding-left: 20px;
+    margin: 0;
+}
+
+.landingcard-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.register-buttons{
+    margin-top: 120px;
+}
+
+.register-buttons button{
+    width: 160px;
+    margin: 0px 20px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+/* cursor  */
 
 .cursor{
     position: absolute;
@@ -28,4 +138,14 @@ body{
     width: 10px;
     height: 10px;
     transform: translate(100%, 100%);
+}
+
+/* loading page  */
+
+.loadingmsg{
+    color: white;
+}
+
+#dosLoading{
+    overflow-y: visible;
 }
