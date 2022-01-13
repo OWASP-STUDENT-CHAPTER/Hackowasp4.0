@@ -1,9 +1,10 @@
-*{
+/* *{ */
     /* cursor: none;     */
     /* caret-color: black; */
-}
+/* } */
 
 body{
+    overflow-x: hidden;
     /* background-color: black; */
     background-image: url("../media/bg.svg");
     background-size: contain;
@@ -18,6 +19,7 @@ body{
     height: 50px;
     background-color: chocolate;
     top: 0;
+    z-index: 1001;
 }
 
 .topnav p{
@@ -211,4 +213,9 @@ body{
 
 #dosLoading{
     overflow-y: visible;
+}
+.about
+{
+    height: 100vh;
+ 
 }
