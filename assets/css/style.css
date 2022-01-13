@@ -6,7 +6,7 @@
 body{
     /* background-color: black; */
     background-image: url("../media/bg.svg");
-    background-size: cover;
+    background-size: contain;
     /* background-color: white; */
 }
 
@@ -112,6 +112,69 @@ body{
     height: 50px;
     border-radius: 50px;
     background-color: white;
+}
+
+/* Footer  */
+.footer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+}
+
+.footercard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    height: 100%;
+    width: 95%;
+}
+
+.aboutowasp{
+    display: flex;
+    height: 70%;
+    background-color: white;
+    border: 2px solid black;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.aboutowaspcard-content{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.searchbox-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.searchbox{
+    width: 90%;
+    height: 30px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.contactscard-content{
+    margin-left: 30px;
+    margin-top: 10px;
 }
 
 /* cursor  */
