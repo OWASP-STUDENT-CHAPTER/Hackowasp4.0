@@ -47,6 +47,16 @@ body{
     width: 60%;
     height: 80px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.bottomnav i
+{
+    font-size: 3rem;
+    color: white;
+    margin: auto 32px;
 }
 
 /* Landing Page  */
@@ -65,10 +75,11 @@ body{
     /* justify-content: center; */
     /* align-items: center; */
     background-color: white;
-    border: 2px solid black;
-    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.479);
+    border-radius: 16px;
     height: 60vh;
     width: 100vh;
+    box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.548);
 }
 
 .landingcard-header{
