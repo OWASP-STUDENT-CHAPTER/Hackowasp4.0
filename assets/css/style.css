@@ -127,6 +127,45 @@ body{
     background-color: white;
 }
 
+/* About Hackowasp  */
+
+.abouthacko{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.aboutcard{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.479);
+    border-radius: 16px;
+    /* margin-right: 10px; */
+    width: 100vh;
+    height: 75%;
+    box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.548);
+}
+
+.aboutcard-content{
+    font-size: 15px;
+}
+
+.carouselcard{
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.479);
+    border-radius: 16px;
+    height: 75%;
+    width: 100vh;
+    box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.548);
+}
+
+
+
 /* Footer  */
 .footer{
     height: 100vh;
@@ -292,9 +331,4 @@ body{
 
 #dosLoading{
     overflow-y: visible;
-}
-.about
-{
-    height: 100vh;
- 
 }
