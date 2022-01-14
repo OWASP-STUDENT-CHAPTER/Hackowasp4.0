@@ -179,6 +179,74 @@ body{
     margin-top: 10px;
 }
 
+.socialhandles{
+    display: flex;
+    flex-direction: row;
+}
+
+.socialbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px 0px 20px;
+}
+
+.socialbox a{
+    text-decoration: none;
+    color: black;
+}
+
+.iconbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.185);
+    /* margin: 20px 20px 0px 20px; */
+    border-radius: 5px;
+}
+
+.iconbox i{
+    font-size: 40px;
+}
+
+.map-phone{
+    display: flex;
+    flex-direction: row;
+}
+
+.phonecard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 350px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.055);
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+.phoneicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.842);
+    margin: 0px 15px 0px 25px;
+    border-radius: 5px;
+}
+
+.phoneicon i{
+    font-size: 42px;
+}
+
+.phoneinfo p{
+    margin: 0;
+}
+
 /* cursor  */
 
 .cursor{
