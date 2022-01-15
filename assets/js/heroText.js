@@ -1,5 +1,5 @@
 // function([string1, string2],target id,[color1,color2])    
-consoleText(['Hello World', 'HackOwasp 4.0','Is On','25-27 Feburary'], 'text',['tomato','rebeccapurple','blue','rebeccapurple']);
+consoleText(['25-27 Feburary' ,'Save The Dates', ' On Your Calendar !'], 'text',['tomato','rebeccapurple','black']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
