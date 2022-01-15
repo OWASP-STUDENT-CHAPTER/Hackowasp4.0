@@ -109,7 +109,7 @@ body{
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.767);
     border-radius: 4px;
-    height: 35vh;
+    height: 37vh;
     width: fit-content;
     box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808);
     margin-bottom: 16px;
@@ -140,14 +140,14 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .searchbox{
     width: 90%;
     height: 30px;
     border-radius: 25px;
-    border: 1px s
-    olid black;
+    border: 1px solid black;
 }
 
 .socialhandles{
@@ -186,6 +186,7 @@ body{
 .map-phone{
     display: flex;
     flex-direction: row;
+    margin-bottom: 5px;
 }
 
 .phonecard{

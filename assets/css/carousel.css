@@ -20,7 +20,10 @@
     .slide img {
         width: 100%;
     }
-
+	.carouselPlace
+	{
+		padding-top: 60px!important;
+	}
   
 
     .prev {
@@ -84,7 +87,7 @@
 
 .img-size
 {
-    max-height: 300px;
+    max-height: 400px;
 }
 
 
