@@ -38,7 +38,27 @@
 
       <!-- Top Nav  -->
       <div class="topnav">
-        <p>Logo</p>
+        <div>Logo</div>
+        <div class="btn-group">
+          <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Register
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="">Register</a></li>
+            <li><a href="">Register as Mentor</a></li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Contact Us
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="">Instagram</a></li>
+            <li><a href="">LinkedIn</a></li>
+            <li><a href="">Website</a></li>
+            <li><a href="">Email</a></li>
+          </ul>
+        </div>
       </div>
 
       <!-- Bottom Nav  -->
@@ -84,7 +104,7 @@
            <section class="screen" id="about">
            
               <div class="row justify-content-around">   
-                <div class=" card aboutcard col-6">
+                <div class=" card aboutcard col-5">
                     <div class="cardHeader">
                       <div class="circle1"></div>
                       <div class="circle2"></div>
@@ -100,36 +120,37 @@
                     </div>
                 </div>
               
-                <div class="card col-4">
+                <div class="card col-6">
                   <div class="cardHeader">
                     <div class="circle1"></div>
                     <div class="circle2"></div>
                     <div class="circle2"></div>
                     <p>Pic.png</p>
                   </div>
-  
-                  <div class="container1" data-autoplay="true">
-                    <div class="slide"> 
-                      <img class="img-size"
-                            src="https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-                            alt="nature" /></div>
-                    <div class="slide">
-                        <img class="img-size" src="https://images.unsplash.com/photo-1446292532430-3e76f6ab6444?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=804&q=80"
-                            alt="nature" />
+                  <div class="cardContent carouselDisp">
+                    <div class="container1" data-autoplay="true">
+                      <div class="slide"> 
+                        <img class="img-size"
+                              src="https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                              alt="nature" /></div>
+                      <div class="slide">
+                          <img class="img-size" src="https://images.unsplash.com/photo-1446292532430-3e76f6ab6444?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=804&q=80"
+                              alt="nature" />
+                      </div>
+                      <div class="slide">
+                          <img class="img-size" src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                              alt="nature" />
+                      </div>
+                      <div class="slide">
+                          <img class="img-size" src="https://images.unsplash.com/photo-1506260408121-e353d10b87c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                              alt="nature" />
+                      </div>
+              
+                      <button class="prev" onclick="prev()"><i class="fa fa-angle-left"></i></button>
+                      <button class="next" onclick="next()"><i class="fa fa-angle-right"></i></button>
                     </div>
-                    <div class="slide">
-                        <img class="img-size" src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
-                            alt="nature" />
-                    </div>
-                    <div class="slide">
-                        <img class="img-size" src="https://images.unsplash.com/photo-1506260408121-e353d10b87c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                            alt="nature" />
-                    </div>
-            
-                    <button class="prev" onclick="prev()"><i class="fa fa-angle-left"></i></button>
-                    <button class="next" onclick="next()"><i class="fa fa-angle-right"></i></button>
+                    <div class="dots_container" id="indicator"></div>
                   </div>
-                  <div class="dots_container" id="indicator"></div>
                     
                 </div>
               </div>
@@ -142,23 +163,41 @@
         <section class="screen" id="footer">
           <div class="row justify-content-around">
 
-            <div class="col-4 card">
-              <div class="aboutowaspcard">
-                <div class="cardHeader">
-                  <div class="circle1"></div>
-                  <div class="circle2"></div>
-                  <div class="circle2"></div>
-                  <p>aboutOwasp.txt</p>
-                </div>
-                <div class="cardContent">
-                  <h4>About Owasp</h4>
-                  Thapar Institute of Engineering and Technology (TIET) has been a steady source of highly skilled talent to the nation as well as overseas. A pioneer in engineering education, research and innovation. The team of OWASP Student Chapter, one of the gilt-edged coding society, involves ingenious mind solvers who are eager to make the world a better place to live in with their innovative techniques and discoveries. By successfully organizing many hackathons, tech-talks, workshops and coding nights, we have always strived hard to maintain the coding culture throughout the campus.
+            <div class="col-6">
+              <div class="row justify-content-around">
+                <div class="aboutowaspcard">
+                  <div class="cardHeader">
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <div class="circle2"></div>
+                    <p>aboutOwasp.txt</p>
+                  </div>
+                  <div class="cardContent">
+                    <h4>About Owasp</h4>
+                    Thapar Institute of Engineering and Technology (TIET) has been a steady source of highly skilled talent to the nation as well as overseas. A pioneer in engineering education, research and innovation. The team of OWASP Student Chapter, one of the gilt-edged coding society, involves ingenious mind solvers who are eager to make the world a better place to live in with their innovative techniques and discoveries. By successfully organizing many hackathons, tech-talks, workshops and coding nights, we have always strived hard to maintain the coding culture throughout the campus.
+                  </div>
                 </div>
               </div>
+
+              <div class="row justify-content-around">
+                <div class="mapContent">
+                  <div class="cardHeader">
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <div class="circle2"></div>
+                    <p>Maps</p>
+                  </div>
+                  <div class="cardContent maps">
+                    <div class="map">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.8073637440793!2d76.36251251512245!3d30.356424181769917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391028ab86533db5%3A0x93cc1f72eae1c9a8!2sThapar%20Institute%20of%20Engineering%20And%20Technology!5e0!3m2!1sen!2sin!4v1642149196244!5m2!1sen!2sin" width="400" height="200" style="border: 2px solid rgba(0, 0, 0, 0.171); border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
 
-            <div class="col-6 card">
-              <div class="contactscard">
+            <div class="col-5 card">
                 <div class="cardHeader">
                   <div class="circle1"></div>
                   <div class="circle2"></div>
@@ -218,23 +257,18 @@
                     </div>
                   </div>
   
-                  <div class="map-phone">
-                    <div class="map">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.8073637440793!2d76.36251251512245!3d30.356424181769917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391028ab86533db5%3A0x93cc1f72eae1c9a8!2sThapar%20Institute%20of%20Engineering%20And%20Technology!5e0!3m2!1sen!2sin!4v1642149196244!5m2!1sen!2sin" width="400" height="200" style="border: 2px solid rgba(0, 0, 0, 0.171); border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                    <div class="phonecard">
-                      <div class="phoneicon">
-                        <i class="fas fa-phone-alt"></i>
+                    <div class="map-phone">
+                      <div class="phonecard">
+                        <div class="phoneicon">
+                          <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="phoneinfo">
+                          <p>Kritik Ajmani</p>
+                          <p>+91 8968689029</p>
+                        </div>
                       </div>
-                      <div class="phoneinfo">
-                        <p>Kritik Ajmani</p>
-                        <p>+91 8968689029</p>
-                      </div>
-                    </div>
-                  </div>
-                  
+                    </div>                  
                 </div>
-              </div>
             </div>
           </div>
         </section>
@@ -242,6 +276,8 @@
     <!-- Javascript  -->
     <script src="./assets/js/cursor.js"></script>
     <script src="./assets/js/boot.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
     <!-- Devfolio Integration -->
     <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>

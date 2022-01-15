@@ -14,7 +14,7 @@
     background-color: white;
     border: 2px solid rgba(0, 0, 0, 0.767);
     border-radius: 16px;
-    height: fit-content;
+    height: 70vh;
     width: 100vh;
     box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808);
 }

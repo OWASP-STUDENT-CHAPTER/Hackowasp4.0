@@ -15,6 +15,8 @@ body{
 .topnav{
     position: fixed;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     width: 100%;
     height: 50px;
     background-color: #f59775cc;
@@ -22,12 +24,16 @@ body{
     top: 0;
     z-index: 1001;
 }
-
-.topnav p{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 0 30px;
+.topnav div{
+    margin-left: 16px;
+}
+.topnav .btn{
+    background-color: #d67957;
+    color: white;
+}
+.topnav .btn-group a{
+    text-decoration: none;
+    color: black;
 }
 
 /* Bottom Nav  */
@@ -86,9 +92,48 @@ body{
     background-color: white;
 }
 
+.carouselDisp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
 
 
 /* Footer  */
+
+.aboutowaspcard{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.767);
+    border-radius: 4px;
+    height: 35vh;
+    width: fit-content;
+    box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808);
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+}
+
+.maps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0%;
+}
+
+.mapContent{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.767);
+    border-radius: 4px;
+    height: 40vh;
+    width: fit-content;
+    box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808);
+}
 
 .searchbox-div{
     display: flex;
@@ -101,7 +146,8 @@ body{
     width: 90%;
     height: 30px;
     border-radius: 25px;
-    border: 1px solid black;
+    border: 1px s
+    olid black;
 }
 
 .socialhandles{

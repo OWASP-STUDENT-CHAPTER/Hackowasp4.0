@@ -3,7 +3,6 @@
         position: relative;
         width: 70%;
         height: 400px;
-        margin: 20px auto;
     }
 
     .slide {
@@ -11,7 +10,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 400px;
+        height: fit-content;
         margin: 0;
         opacity: 0;
         transition: 1s ease-in-out;
@@ -33,7 +32,7 @@
         padding: 10px 16px;
         margin-top: -25px;
         font-size: 30px;
-        z-index: 1000;
+        z-index: 100;
         font-weight: 900;
         transition: 0.5s ease-in-out;
         left: 0;
@@ -48,7 +47,7 @@
         padding: 10px 16px;
         margin-top: -25px;
         font-size: 30px;
-        z-index: 1000;
+        z-index: 100;
         font-weight: 900;
         transition: 0.5s ease-in-out;
         right: 0;
