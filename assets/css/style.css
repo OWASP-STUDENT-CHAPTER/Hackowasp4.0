@@ -288,7 +288,8 @@ body{
     width: 40%;
     float: left;
     padding: 20px 0px;
-    border: 1px solid black;;
+    border: 1px solid black;
+    display: flex;
 }  
 .width{
     width:60%
