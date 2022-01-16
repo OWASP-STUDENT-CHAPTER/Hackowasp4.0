@@ -9,10 +9,8 @@
 }
 body{
     overflow-x: hidden;
-    /* background-color: black; */
     background-image: url("../media/bg.svg");
     background-size: contain;
-    /* background-color: white; */
 }
 
 /* Top Nav  */
@@ -39,6 +37,10 @@ body{
     text-decoration: none;
     color: black;
 }
+.dropdown-menu
+{
+    padding: 8px !important;
+}
 
 /* Bottom Nav  */
 .bottomnav-area{
@@ -58,7 +60,7 @@ body{
     backdrop-filter: blur(4px);
     border: 1px solid #eca388cc;
     width: fit-content;
-    height: 80px;
+    height: 64px;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -103,13 +105,6 @@ body{
     align-items: center;
     padding-top: 40px;
 }
-
-/* .aboutcard .cardHeader
-{
-    position: sticky;
-    top: 0px;
-    background-color: white;
-} */
 
 /* Footer  */
 
@@ -270,7 +265,3 @@ body{
     overflow-y: visible;
 }
 
-.dropdown-menu
-{
-    padding: 8px !important;
-}
