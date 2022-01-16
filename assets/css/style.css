@@ -265,3 +265,32 @@ body{
     overflow-y: visible;
 }
 
+
+/* Faq page */
+
+
+.question_nav{
+    border:1px solid black;
+    margin-right: 60%;
+    padding: 20px 0px;
+    overflow-y:hidden;
+    text-align: center;
+    /* float:left; */
+}
+
+
+.faq-aside-div {
+    padding:0;
+}
+
+.faq-aside-div-child{
+    width: 40%;
+    float: left;
+    padding: 20px 0px;
+    border: 1px solid black;;
+}  
+.width{
+    width:60%
+}
+=======
+
