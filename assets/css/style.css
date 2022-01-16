@@ -266,7 +266,9 @@ body{
 }
 
 /* Faq page */
-
+.faq-header{
+    padding-bottom: 8px;
+}
 
 .question_nav{
     border:1px solid black;
@@ -290,4 +292,32 @@ body{
 }  
 .width{
     width:60%
+}
+#faq-text{
+    padding: 10px;
+    border: none;
+}
+
+.text-box-left{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-box-child{
+    background-color: #C4C4C4;
+    margin: 0px;
+    margin-right: 5px;
+    padding-left:10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+    width:85%;  
+}
+.text-box-submit{
+    text-align: center;
+    background-color: #C4C4C4;
+    margin: 0px;
+    padding:10px;
+    border-radius: 50px;
+    width:15%;
 }
