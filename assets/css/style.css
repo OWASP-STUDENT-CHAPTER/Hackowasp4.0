@@ -9,10 +9,8 @@
 }
 body{
     overflow-x: hidden;
-    /* background-color: black; */
     background-image: url("../media/bg.svg");
     background-size: contain;
-    /* background-color: white; */
 }
 
 /* Top Nav  */
@@ -39,6 +37,10 @@ body{
     text-decoration: none;
     color: black;
 }
+.dropdown-menu
+{
+    padding: 8px !important;
+}
 
 /* Bottom Nav  */
 .bottomnav-area{
@@ -58,7 +60,7 @@ body{
     backdrop-filter: blur(4px);
     border: 1px solid #eca388cc;
     width: fit-content;
-    height: 80px;
+    height: 64px;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -104,7 +106,6 @@ body{
     padding-top: 40px;
 }
 
-
 /* Footer  */
 
 .aboutowaspcard{
@@ -118,6 +119,7 @@ body{
     box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808);
     margin-bottom: 16px;
     padding-bottom: 16px;
+    overflow: scroll;
 }
 
 .maps{
@@ -157,6 +159,8 @@ body{
 .socialhandles{
     display: flex;
     flex-direction: row;
+    overflow-x: scroll;
+    justify-content: center;
 }
 
 .socialbox{
@@ -190,6 +194,7 @@ body{
 .map-phone{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-bottom: 5px;
 }
 
@@ -201,7 +206,7 @@ body{
     width: 350px;
     height: 100px;
     background-color: rgba(0, 0, 0, 0.055);
-    margin-left: 25px;
+    
     border-radius: 5px;
 }
 
@@ -260,6 +265,7 @@ body{
     overflow-y: visible;
 }
 
+
 /* Faq page */
 
 
@@ -286,3 +292,5 @@ body{
 .width{
     width:60%
 }
+=======
+
