@@ -17,12 +17,18 @@
     height: 70vh;
     width: 100vh;
     box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808);
+    overflow: scroll;
+    position: relative;
 }
 .cardHeader{
     display: flex;
     flex-direction: row;
     padding-top: 8px;
     align-items: center;
+    padding-bottom: 8px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
 }
 .circle1, .circle2{
     width: 20px;
@@ -39,6 +45,7 @@
 .cardHeader p{
     padding-left: 20px;
     margin: 0;
+    
 }
 
 .cardContent{
