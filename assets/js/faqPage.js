@@ -2,8 +2,8 @@
 
 
 const question = document.querySelectorAll(".question_nav");
-const ansBar = document.querySelector(".text-box-child")
-const qBar=document.querySelector(".text-box-left");
+const ansBar = document.querySelector(".answer-box")
+const qBar=document.querySelector(".question-box");
 
 question[0].value={
    q:"This is q1",
@@ -30,7 +30,7 @@ question[5].value={
    a:"this is a6"
 }
 
-function print(toBeDisplayed,i){
+function print(i){
 
 
     ansBar.innerText = question[i].value.a;
@@ -41,7 +41,7 @@ function print(toBeDisplayed,i){
 for(let i=0;i<6;i++){
 
     question[i].addEventListener("click",()=>{
-        print(question[i].value,i);
+        print(i);
     })
 }
 

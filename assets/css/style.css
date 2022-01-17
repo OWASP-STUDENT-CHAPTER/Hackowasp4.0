@@ -294,6 +294,7 @@ body{
 }
 .question_nav{
     border:1px solid black;
+    cursor: pointer;
     /* margin-right: 60%; */
     padding: 20px 0px;
     overflow-y:hidden;
