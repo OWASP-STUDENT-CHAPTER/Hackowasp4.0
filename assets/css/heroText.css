@@ -4,14 +4,14 @@
   opacity:0;
 }
 .console-container {
- padding-top: 30px;
+ /* padding-top: 30px; */
   font-family:Khula;
-  font-size:4em;
+  font-size:30px;
   text-align:center;
-  height:200px;
+  /* height:200px; */
   width:600px;
   display:block;
-  color:white;
+  color:rgba(255, 255, 255, 0);
   top:0;
   bottom:0;
   left:0;
