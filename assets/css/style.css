@@ -85,12 +85,15 @@ body{
 /* Landing Page  */
 
 .landing{
+    display: flex;
+    align-items: center;
     padding: 24px auto;
     text-align: center;
+    
 }
 
 .register-buttons{
-    margin-top: 120px;
+    /* margin-top: 10px; */
 }
 
 .register-buttons button{
