@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@400;500;600;700&family=Poppins:wght@200;300;400;600;700&display=swap');
+
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Oswald', sans-serif;*/
+/*font-family: 'Poppins', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --opensans: 'Open Sans', sans-serif;
+    --oswald: 'Oswald', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+}
+
+.max-width {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.mySwiper2 {
+    width: 80%;
+    height: 60vh;
+}
+
+.swiperContainer {
+    margin-top: 2rem;
+    width: 60%;
+    height: 60vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    text-align: center;
+}
+
+.mySwiper {
+    margin-top: 2rem;
+}
+.card h2{
+    font-size: 6rem;
+    color: rebeccapurple;
+    font-family: var(--oswald);
+    text-align: center;
+}
+.card p{
+    font-size: 2rem;
+    font-family: var(--opensans);
+}
+.swiper-slide{
+    padding: 0rem;
+    border: 2px solid blueviolet;
+    height: 1000em;
+}
+
