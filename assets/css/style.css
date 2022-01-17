@@ -9,8 +9,11 @@
 }
 body{
     overflow-x: hidden;
-    background-image: url("../media/bg.svg");
-    background-size: contain;
+    background-image: url("../media/looped.gif");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 /* Top Nav  */
