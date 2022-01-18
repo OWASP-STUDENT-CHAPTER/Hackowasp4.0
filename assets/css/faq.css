@@ -1,4 +1,9 @@
 /* Faq page */
+
+.faqcontainer{
+    height: auto;
+}
+
 .faq-header{
     padding-bottom: 8px;
 }
@@ -66,7 +71,7 @@
 
 .text-box-child{
     background-color: #C4C4C4;
-    width: 85%;
+    width: 90%;
     padding-left:10px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -75,9 +80,11 @@
 }
 .text-box-submit{
     background-color: #C4C4C4;
-    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
     padding:10px;
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 .question-box{  
