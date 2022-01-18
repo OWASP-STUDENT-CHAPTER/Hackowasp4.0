@@ -58,6 +58,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+}
+
+.team-container{
+  overflow: scroll;
 }
 
 .team-card{
@@ -131,12 +136,12 @@ html {
     overflow: scroll;
     overflow-x: hidden;
 }
-::-webkit-scrollbar {
+.team-screen ::-webkit-scrollbar {
     width: 0;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
 /* Optional: show position indicator in red */
-::-webkit-scrollbar-thumb {
+.team-screen ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
 .team-circle1, .team-circle2, .team-circle3{
@@ -144,15 +149,18 @@ html {
     height: 20px;
     margin-left: 10px;
     border-radius: 25px;
-    background-color: red;
     border: 2px solid rgba(0, 0, 0, 0.767);
 }
 
+.team-circle1{
+    background-color: black;
+}
+
 .team-circle2{
-    background-color: yellow;
+    background-color: white;
 }
 .team-circle3{
-    background-color: green;
+    background-color: white;
 }
 
 .team-logo-img{
