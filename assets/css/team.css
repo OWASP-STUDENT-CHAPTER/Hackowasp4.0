@@ -274,24 +274,24 @@ img {
 
 /* figcaption */
 figcaption {
-  display: block;
+  width: 80%;
+  padding: 8px 5px;
 
-  width: auto;
-  margin-top: 12%;
-  padding: 8px 22px;
-
-  font-weight: bold;
+  font-weight: 300;
   line-height: 1.6;
-  letter-spacing: 2px;
-  word-spacing: 6px;
-  text-align: right;
+  text-align: center;
+  font-size: 15px;
 
   position: absolute;
-  top: 0;
-  right: 12px;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-  color: var(--white-1);
-  background: hsla(var(--hue), 25%, 10%, .5);
+  color: white;
+  letter-spacing: 1px;
+  font-family: arial;
+  border-radius: 30px;
+  background: hsla(var(--hue), 25%, 10%, .8);
 }
 
 /* .img-bg */
@@ -300,7 +300,7 @@ figcaption {
 }
 
 .card-front .img-bg {
-  clip-path: polygon(0 20%, 100% 40%, 100% 100%, 0 100%);
+  clip-path: polygon(0 20%);
 }
 
 .card-front .img-bg::before {
@@ -320,10 +320,6 @@ figcaption {
   transition: .1s;
 }
 
-.card-back .img-bg {
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 60%);
-}
-
 /* hover state */
 .flip-card-container:hover .card-front .img-bg::before {
   width: 6px;
@@ -333,7 +329,7 @@ figcaption {
 
 /* ul */
 .flip-ul{
-  padding-top: 50%;
+  padding-top: 90%;
   padding-left: 0;
   margin: 0 auto;
   width: 70%;
@@ -341,11 +337,18 @@ figcaption {
 
   list-style: none;
   color: var(--white-1);
-
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.flip-ul li{
+  background-color: white;
+  height: 23px;
+  border-radius: 20px;
+  width: 50%;
 }
 
 /* li */
@@ -520,4 +523,23 @@ button:focus+.design-container {
   color: hsla(0, 0%, 100%, .6);
   font-size: 16px;
   font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
