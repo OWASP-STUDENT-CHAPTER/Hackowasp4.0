@@ -1,22 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 
 .hidden {
   opacity:0;
 }
 .console-container {
- padding-top: 30px;
-  font-family:Khula;
-  font-size:4em;
+ /* padding-top: 30px; */
+ font-family: 'Roboto', sans-serif;
+  font-size:30px;
   text-align:center;
-  height:200px;
+  /* height:200px; */
   width:600px;
   display:block;
-  color:white;
+  color:rgba(255, 255, 255, 0);
   top:0;
   bottom:0;
   left:0;
   right:0;
   margin:auto;
+  margin-top: 20px;
 }
 .console-underscore {
    display:inline-block;

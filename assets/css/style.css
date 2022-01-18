@@ -2,6 +2,9 @@
     /* cursor: none;     */
     /* caret-color: black; */
 /* } */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
 @media only screen and (min-width :1000px) {
     .cardSize{
         height: 75vh!important;
@@ -9,37 +12,12 @@
 }
 body{
     overflow-x: hidden;
-    background-image: url("../media/bg.svg");
-    background-size: contain;
-}
+    background-image: url("../media/looped.gif");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: black!important; */
 
-/* Top Nav  */
-.topnav{
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    height: 50px;
-    background-color: #f59775cc;
-    backdrop-filter: blur(4px);
-    top: 0;
-    z-index: 1001;
-}
-.topnav div{
-    margin-left: 16px;
-}
-.topnav .btn{
-    background-color: #d67957;
-    color: white;
-}
-.topnav .btn-group a{
-    text-decoration: none;
-    color: black;
-}
-.dropdown-menu
-{
-    padding: 8px !important;
 }
 
 /* Bottom Nav  */
@@ -56,22 +34,22 @@ body{
 
 .bottomnav{
     position: fixed;
-    background-color: #f59775cc;
-    backdrop-filter: blur(4px);
-    border: 1px solid #eca388cc;
-    width: fit-content;
-    height: 64px;
-    border-radius: 10px;
+    background: #cc804279;
+    box-shadow: 0px 0px 24px 8px rgba(0, 0, 0, 0.281);
+    backdrop-filter: blur(8px);
+    border-radius: 16px;
+    height: 56px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: center;  
+    padding: 8px 16px;  
 }
-.bottomnav i
-{
-    font-size: 3rem;
-    color: white;
-    margin: auto 32px;
+.bottomnav div{
+    margin: auto 8px;
+}
+.bottomnav img{
+    width: 40px;
 }
 
 .containerr
@@ -82,20 +60,41 @@ body{
 /* Landing Page  */
 
 .landing{
+    display: flex;
+    align-items: center;
     padding: 24px auto;
     text-align: center;
+    
 }
 
 .register-buttons{
-    margin-top: 120px;
+    margin-top: 50px;
 }
 
 .register-buttons button{
-    width: 160px;
+    width: 250px;
     margin: 0px 20px;
     height: 50px;
-    border-radius: 50px;
-    background-color: white;
+    border-radius: 10px;
+    border: none;
+    background-color: #3859EF;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    filter: drop-shadow(0px 3.69827px 1.84913px rgba(0, 0, 0, 0.25));
+}
+
+.mentorbtn{
+    width: 250px;
+    margin: 0px 20px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3859EF;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    filter: drop-shadow(0px 3.69827px 1.84913px rgba(0, 0, 0, 0.25));
 }
 
 .carouselDisp{
@@ -106,13 +105,47 @@ body{
     padding-top: 40px;
 }
 
+#timer{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    letter-spacing: -1px;
+    margin-top: 30px;
+}
+
+.countdowntime{
+    margin: 0px 10px;
+}
+
+#timer span {
+    font-size: 60px;
+    color: white;
+    margin: 0 3px 0 15px;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0.02) 100%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(32px);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.089);
+    transform: rotate(-0.19deg);
+    padding: 15px 15px;
+  }
+  #timer span:first-child {
+    margin-left: 0;
+  }
+
 /* Footer  */
 
 .aboutowaspcard{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0.02) 100%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(32px);
+    transform: rotate(-0.19deg);
     border: 1px solid rgba(0, 0, 0, 0.767);
+    color:rgba(255, 255, 255, 0.705);
     border-radius: 4px;
     height: 37vh;
     width: fit-content;
@@ -120,6 +153,10 @@ body{
     margin-bottom: 16px;
     padding-bottom: 16px;
     overflow: scroll;
+}
+
+.aboutowaspcard::-webkit-scrollbar {
+    width: 5px;
 }
 
 .maps{
@@ -133,7 +170,10 @@ body{
 .mapContent{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0.02) 100%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(32px);
+    transform: rotate(-0.19deg);
     border: 1px solid rgba(0, 0, 0, 0.767);
     border-radius: 4px;
     height: 40vh;
@@ -159,7 +199,7 @@ body{
 .socialhandles{
     display: flex;
     flex-direction: row;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     justify-content: center;
 }
 
