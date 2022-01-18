@@ -138,3 +138,18 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
+.team-circle1, .team-circle2, .team-circle3{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 25px;
+    background-color: red;
+    border: 2px solid rgba(0, 0, 0, 0.767);
+}
+
+.team-circle2{
+    background-color: yellow;
+}
+.team-circle3{
+    background-color: lightgreen;
+}
