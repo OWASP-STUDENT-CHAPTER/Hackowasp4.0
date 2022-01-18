@@ -12,11 +12,11 @@
 }
 body{
     overflow-x: hidden;
-    /* background-image: url("../media/looped.gif");
+    background-image: url("../media/looped.gif");
     background-position: center;
     background-size: cover;
-    background-attachment: fixed; */
-    background-color: black!important;
+    background-attachment: fixed;
+    /* background-color: black!important; */
 
 }
 
@@ -107,6 +107,7 @@ body{
     margin: 0px 20px;
     height: 50px;
     border-radius: 10px;
+    border: none;
     background-color: #3859EF;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -157,8 +158,12 @@ body{
 .aboutowaspcard{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0.02) 100%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(32px);
+    transform: rotate(-0.19deg);
     border: 1px solid rgba(0, 0, 0, 0.767);
+    color:rgba(255, 255, 255, 0.705);
     border-radius: 4px;
     height: 37vh;
     width: fit-content;
@@ -179,7 +184,10 @@ body{
 .mapContent{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0.02) 100%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(32px);
+    transform: rotate(-0.19deg);
     border: 1px solid rgba(0, 0, 0, 0.767);
     border-radius: 4px;
     height: 40vh;
