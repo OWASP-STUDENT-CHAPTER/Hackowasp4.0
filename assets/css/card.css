@@ -23,8 +23,22 @@
     width: 100vh;
     box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808);
     overflow: scroll;
+    overflow-x: hidden;
     position: relative;
 }
+
+.hackocard::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* .hackocard::-webkit-scrollbar-track {
+    background: #f1f1f123;
+    border-radius: 25px;
+}
+
+.hackocard::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.418);
+} */
 
 .landingcard{
     display: flex;
