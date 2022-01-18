@@ -6,8 +6,8 @@ const ansBar = document.querySelector(".answer-box")
 const qBar=document.querySelector(".question-box");
 
 question[0].value={
-   q:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores voluptas, deserunt repudiandae sequi quod amet. Ducimus libero dolorem tempora, nemo consectetur quos. Sequi quam officiis, blanditiis dignissimos praesentium quas dolore?",
-   a:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores voluptas, deserunt repudiandae sequi quod amet. Ducimus libero dolorem tempora, nemo consectetur quos. Sequi quam officiis, blanditiis dignissimos praesentium quas dolore?"
+   q:"This is q1",
+   a:"this is a1"
 }
 question[1].value={
    q:"This is q2",
