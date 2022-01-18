@@ -1,0 +1,140 @@
+.team-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+.team-box{
+    width: 22%;
+
+    border: 2px solid #333;
+    box-shadow: 0 0 4px 1px rgba(53, 51, 51, 0.808);
+    border-radius: 15px;
+
+    margin: 15px 20px 15px 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.team-box:hover{
+    background-image: linear-gradient(110deg, rgba(205, 150, 110) 6%, rgb(220, 180, 180) 53%);
+    transition: 0.4s ease-in;
+    transform: scale(103%);
+}
+
+.potrait{
+    border-radius: 50%;
+    padding: 5px 0px 15px 0px;
+}
+
+
+.team-box a{
+    text-decoration: none;
+    color: #fff;
+
+    padding: 2px;
+}
+
+.team-box a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.team-box a:active{
+    text-decoration: none;
+    color: #fff;
+}
+
+.team-box a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+.team-screen{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-card{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.476); */
+    background-image: linear-gradient(130deg, rgba(144, 144, 144, 0.60), rgba(186, 186, 186, 0.197));
+
+    /* border: 2px solid rgba(255, 255, 255, 0.767); */
+    border-radius: 16px;
+
+    height: 87vh;
+    width: 120vh;
+
+
+    /* box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808); */
+    overflow-y: scroll;
+    position: relative;
+
+}
+
+.teamheading-container{
+    background-image: linear-gradient(130deg, rgba(144, 144, 144, 0.60), rgba(186, 186, 186, 0.197));
+    /* background-image: */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 25%;
+
+    border-radius: 16px;
+    /* border: 2px solid rgba(255, 255, 255, 0.767); */
+    /* box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808);  */
+}
+
+.team-cardHeader{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8px;
+    padding-left: 2rem;;
+    align-items: center;
+    padding-bottom: 8px;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#team-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin:4% 0 2% 0;
+}
+
+#team-cardHeaderTextExbo{
+    font-size: 1.5rem;
+    color: white;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0;
+    margin-bottom: 0rem;
+    padding-left: 1rem;
+    padding-top: 0rem;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
