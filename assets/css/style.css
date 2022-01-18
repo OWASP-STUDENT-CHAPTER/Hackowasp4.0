@@ -20,35 +20,6 @@ body{
 
 }
 
-/* Top Nav  */
-.topnav{
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    height: 50px;
-    background-color: #f59775cc;
-    backdrop-filter: blur(4px);
-    top: 0;
-    z-index: 1001;
-}
-.topnav div{
-    margin-left: 16px;
-}
-.topnav .btn{
-    background-color: #d67957;
-    color: white;
-}
-.topnav .btn-group a{
-    text-decoration: none;
-    color: black;
-}
-.dropdown-menu
-{
-    padding: 8px !important;
-}
-
 /* Bottom Nav  */
 .bottomnav-area{
     position: fixed;
@@ -63,24 +34,22 @@ body{
 
 .bottomnav{
     position: fixed;
-    background: rgba(204, 127, 66, 0.4);
-    box-shadow: 0px 4px 16px 10px rgba(0, 0, 0, 0.2);
+    background: #cc804279;
+    box-shadow: 0px 0px 24px 8px rgba(0, 0, 0, 0.281);
     backdrop-filter: blur(8px);
-    border-radius: 20px;
-    width: fit-content;
-    height: 64px;
-    border-radius: 10px;
+    border-radius: 16px;
+    height: 56px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;  
+    padding: 8px 16px;  
 }
-.bottomnav i
-{
-    font-size: 3rem;
-    color: white;
-    margin: auto 32px;
+.bottomnav div{
+    margin: auto 8px;
+}
+.bottomnav img{
+    width: 40px;
 }
 
 .containerr
