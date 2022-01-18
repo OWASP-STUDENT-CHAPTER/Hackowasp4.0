@@ -44,7 +44,7 @@ body {
     position:absolute;
     top:17%;
     left:50%;
-    border-bottom:4px solid rgb(90, 11, 11);
+    border-bottom:4px solid rgb(88, 83, 83);
     width:0%;
     text-align:center;
     animation: line 1s linear forwards;
@@ -143,6 +143,7 @@ body {
 
 }
 .card p{
+    color: rgb(36, 35, 35);
     font-size: 2rem;
     font-family: var(--opensans);
     padding: 4rem;
