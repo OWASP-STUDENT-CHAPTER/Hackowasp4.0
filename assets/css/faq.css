@@ -1,7 +1,14 @@
 /* Faq page */
-
+:root{
+    --theme-color:  #cc804279;
+    --click-color:  #ca783479;
+    --hover-color: #c4956f79;
+    --border-color:black;
+}
 .faqcontainer{
     height: auto;
+    overflow: hidden;
+    
 }
 
 .faq-header{
@@ -25,7 +32,7 @@
     flex-direction: column;
 }
 .question_nav{
-    border:1px solid black;
+    border:1px solid var(--border-color);
     cursor: pointer;
     /* margin-right: 60%; */
     padding: 20px 0px;
@@ -33,6 +40,11 @@
     text-align: center;
     /* float:left; */
 }
+.question_nav:hover{
+
+    background-color: var(--hover-color);
+}
+
 
 
 .faq-aside-div {
@@ -45,7 +57,7 @@
     /* width: 40%; */
     /* float: left; */
     padding: 0px 0px;
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     display: flex;
     
 }  
@@ -70,38 +82,41 @@
 }
 
 .text-box-child{
-    background-color: #C4C4C4;
+    background-color: var(--theme-color);
     width: 90%;
     padding-left:10px;
     padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 20px;
     margin-right: 5px;
+    cursor:text;
 }
 .text-box-submit{
-    background-color: #C4C4C4;
+    background-color: var(--theme-color);
     margin-left: auto;
     margin-right: auto;
     width: 10%;
     padding:10px;
     border-radius: 50%;
+    cursor: pointer;
+    
 }
 
 .question-box{  
-    background: #C4C4C4;
+    background: var(--theme-color);
     width: 85%;;
     width: 65%;
-    padding-left:10px;
+    padding-left:20px;
     padding-bottom: 10px;
     padding-top: 10px;
-    border-radius: 20px;
-    border-radius: 50px;
+    border-radius: 210px;
+    border-radius: 40px;
     /* max-width: 60%; */
     margin-top: auto;
     margin-left: auto;
 }
 .answer-box{
-    background: #C4C4C4;
+    background: var(--theme-color);
     width: 85%;;
     width: 85%;;
     width: 65%;
@@ -110,5 +125,9 @@
     /* max-width: 60%; */
     margin-top: 10px;
     margin-right: auto;
+    padding-left:20px;
     
+}
+.colorClass{
+    background-color: var(--click-color);
 }
