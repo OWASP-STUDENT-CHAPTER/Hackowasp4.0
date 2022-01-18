@@ -11,12 +11,12 @@
     }
 }
 body{
-    /* overflow-x: hidden;
+    overflow-x: hidden;
     background-image: url("../media/looped.gif");
     background-position: center;
     background-size: cover;
-    background-attachment: fixed; */
-    background-color: black!important;
+    background-attachment: fixed;
+    /* background-color: black!important; */
 
 }
 

@@ -14,7 +14,7 @@ max-width: 250px;
 }
 
 .chattitle {
-background-color: #22c15e; 
+background-color: #e9640c; 
 color: white; 
 padding: 14px; 
 border-radius: 12px 12px 0px 0px;
@@ -44,7 +44,7 @@ border: 1px solid #d4d4d4;
 }
 
 .chatbutton {
-background-color: #22c15e; 
+background-color: #e9640c; 
 border-radius: 20px; 
 padding: 8px 15px; 
 cursor: pointer; 
@@ -71,7 +71,7 @@ font-size: 15px;
 }
 
 .chatsendbutton {
-  color: #22c15e;
+  color: #e9640c;
   cursor:pointer;
 }
 
