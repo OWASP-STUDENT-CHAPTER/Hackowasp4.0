@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 
 .hidden {
   opacity:0;
 }
 .console-container {
  /* padding-top: 30px; */
-  font-family:Khula;
+ font-family: 'Roboto', sans-serif;
   font-size:30px;
   text-align:center;
   /* height:200px; */
@@ -17,6 +18,7 @@
   left:0;
   right:0;
   margin:auto;
+  margin-top: 20px;
 }
 .console-underscore {
    display:inline-block;

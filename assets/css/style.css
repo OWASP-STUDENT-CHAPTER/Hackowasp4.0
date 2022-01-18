@@ -2,6 +2,9 @@
     /* cursor: none;     */
     /* caret-color: black; */
 /* } */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
 @media only screen and (min-width :1000px) {
     .cardSize{
         height: 75vh!important;
@@ -9,10 +12,11 @@
 }
 body{
     overflow-x: hidden;
-    background-image: url("../media/looped.gif");
+    /* background-image: url("../media/looped.gif");
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: black!important;
 
 }
 
@@ -59,9 +63,10 @@ body{
 
 .bottomnav{
     position: fixed;
-    background-color: #f59775cc;
-    backdrop-filter: blur(4px);
-    border: 1px solid #eca388cc;
+    background: rgba(204, 127, 66, 0.4);
+    box-shadow: 0px 4px 16px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
     width: fit-content;
     height: 64px;
     border-radius: 10px;
@@ -69,6 +74,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
 }
 .bottomnav i
 {
@@ -93,15 +99,19 @@ body{
 }
 
 .register-buttons{
-    /* margin-top: 10px; */
+    margin-top: 50px;
 }
 
 .register-buttons button{
-    width: 160px;
+    width: 250px;
     margin: 0px 20px;
     height: 50px;
-    border-radius: 50px;
-    background-color: white;
+    border-radius: 10px;
+    background-color: #3859EF;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    filter: drop-shadow(0px 3.69827px 1.84913px rgba(0, 0, 0, 0.25));
 }
 
 .carouselDisp{
@@ -111,6 +121,36 @@ body{
     align-items: center;
     padding-top: 40px;
 }
+
+#timer{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    letter-spacing: -1px;
+    margin-top: 30px;
+}
+
+.countdowntime{
+    margin: 0px 10px;
+}
+
+#timer span {
+    font-size: 60px;
+    color: white;
+    margin: 0 3px 0 15px;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0.02) 100%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(32px);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.089);
+    transform: rotate(-0.19deg);
+    padding: 15px 15px;
+  }
+  #timer span:first-child {
+    margin-left: 0;
+  }
 
 /* Footer  */
 
