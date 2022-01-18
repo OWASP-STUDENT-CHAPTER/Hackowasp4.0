@@ -155,6 +155,10 @@ body{
     overflow: scroll;
 }
 
+.aboutowaspcard::-webkit-scrollbar {
+    width: 5px;
+}
+
 .maps{
     display: flex;
     flex-direction: column;
@@ -195,7 +199,7 @@ body{
 .socialhandles{
     display: flex;
     flex-direction: row;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     justify-content: center;
 }
 
