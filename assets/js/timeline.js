@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d');
 
 ctx.fillStyle = 'white';
 ctx.globalAlpha = 0.5;
-ctx.fillRect(105, 20, 1300, 600);
+
 var canv = document.getElementById("canvas");
 var context = canv.getContext("2d");
 context.beginPath();
