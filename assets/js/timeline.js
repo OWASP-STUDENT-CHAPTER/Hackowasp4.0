@@ -4,6 +4,8 @@ const ctx = canvas.getContext('2d');
 ctx.fillStyle = 'white';
 ctx.globalAlpha = 0.5;
 
+
+
 var canv = document.getElementById("canvas");
 var context = canv.getContext("2d");
 context.beginPath();
@@ -119,4 +121,127 @@ context.beginPath();
         ctx.fillStyle= "black";
         ctx.font = "15pt Tahoma";
         ctx.fillText(" 6pm",50,825);
+
+//cards
+        //Tuesday Cards
+        ctx.beginPath();
+        roundRect(ctx, 120, 110, 365, 140, 20,true,false);
+        // To change the color on the rectangle, just manipulate the context
+        ctx.fillStyle = "#C3E0ED";
+        ctx.fill();
+        ctx.beginPath();
+        roundRect(ctx, 120, 270, 365, 220, 20, true,false);
+        // Manipulate it again
+        ctx.fillStyle = "#F7C476";
+        ctx.fill();
+        ctx.beginPath();
+        roundRect(ctx, 120, 590, 365, 220, 20, true,false);
+        // Manipulate it again
+        ctx.fillStyle = "#F8A4BE";
+        ctx.fill();
+
+
+        // Wednesday Cards
+        ctx.beginPath();
+        roundRect(ctx, 520, 110, 365,220, 20,true,false);
+        // To change the color on the rectangle, just manipulate the context
+        ctx.fillStyle = "#AAC1AE";
+        ctx.fill();
+        ctx.beginPath();
+        roundRect(ctx, 520, 350, 365, 140, 20, true,false);
+        // Manipulate it again
+        ctx.fillStyle = "#F8A4BE";
+        ctx.fill();
+        ctx.beginPath();
+        roundRect(ctx, 520, 510, 365, 380, 20, true,false);
+        // Manipulate it again
+        ctx.fillStyle = "#C3E0ED";
+        ctx.fill();
+     
+        // Thursday Cards
+        ctx.beginPath();
+        roundRect(ctx, 920, 110, 365,60, 20,true,false);
+        // To change the color on the rectangle, just manipulate the context
+        ctx.fillStyle = "#CCBDFF";
+        ctx.fill();
+        ctx.beginPath();
+        roundRect(ctx, 920, 270, 365, 380, 20, true,false);
+        // Manipulate it again
+        ctx.fillStyle = "#F7C476";
+        ctx.fill();
+        ctx.beginPath();
+        roundRect(ctx, 920, 750, 365, 140, 20, true,false);
+        // Manipulate it again
+        ctx.fillStyle = "#C3E0ED";
+        ctx.fill();
+
+//Text On Cards
+
+        ctx.fillStyle= "#62594B";
+        ctx.font = "bold 11pt Tahoma";
+        ctx.fillText("Webinar On Web Development",140,140);
+        ctx.fillStyle= "#EC8482";
+        ctx.font = "bold 11pt Tahoma";
+        ctx.fillText("Time: 12:00 AM To 3:30 AM",140,170);
+
+        ctx.fillStyle= "#62594B";
+        ctx.font = "bold 11pt Tahoma";
+        ctx.fillText("Gaming Night - Fortnite",140,300);
+        ctx.fillStyle= "#EC8482";
+        ctx.font = "bold 11pt Tahoma";
+        ctx.fillText("Time: 4:00 AM To 10:00 AM",140,330);
+
+        ctx.fillStyle= "#62594B";
+        ctx.font = "bold 11pt Tahoma";
+        ctx.fillText("HackO Starting Ceremony",140,620);
+        ctx.fillStyle= "white";
+        ctx.font = "bold 11pt Tahoma";
+        ctx.fillText("Time: 12:00 PM To 6:00 PM",140,650);
+
+
+
+
+
+
+
+function roundRect(ctx, x, y, width, height, radius, fill, stroke) {
+        if (typeof stroke === 'undefined') {
+                stroke = true;
+        }
+        if (typeof radius === 'undefined') {
+                radius = 5;
+        }
+        if (typeof radius === 'number') {
+                radius = {tl: radius, tr: radius, br: radius, bl: radius};
+        } else {
+                var defaultRadius = {tl: 0, tr: 0, br: 0, bl: 0};
+                for (var side in defaultRadius) {
+                radius[side] = radius[side] || defaultRadius[side];
+                }
+        }
+        ctx.beginPath();
+        ctx.moveTo(x + radius.tl, y);
+        ctx.lineTo(x + width - radius.tr, y);
+        ctx.quadraticCurveTo(x + width, y, x + width, y + radius.tr);
+        ctx.lineTo(x + width, y + height - radius.br);
+        ctx.quadraticCurveTo(x + width, y + height, x + width - radius.br, y + height);
+        ctx.lineTo(x + radius.bl, y + height);
+        ctx.quadraticCurveTo(x, y + height, x, y + height - radius.bl);
+        ctx.lineTo(x, y + radius.tl);
+        ctx.quadraticCurveTo(x, y, x + radius.tl, y);
+        ctx.closePath();
+        if (fill) {
+                ctx.fill();
+        }
+        if (stroke) {
+                ctx.stroke();
+        }
+        
+        }
+
+
+
+
+
+
 
