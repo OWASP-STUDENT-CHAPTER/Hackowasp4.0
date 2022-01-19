@@ -4,6 +4,14 @@
     align-items: center;
     justify-content: center;
 }
+.screenPad{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
 
 .hackocard{
     display: flex;
