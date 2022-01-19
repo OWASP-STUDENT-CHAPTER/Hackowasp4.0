@@ -3,13 +3,13 @@
 /*font-family: 'Open Sans', sans-serif;*/
 /*font-family: 'Oswald', sans-serif;*/
 /*font-family: 'Poppins', sans-serif;*/
-
-* {
+/* 
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-}
+} */ */
 
 :root {
     --opensans: 'Open Sans', sans-serif;
@@ -18,15 +18,14 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 80%;
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: #34495e;
-    margin-top: 2rem;
-    background-image: url("background.jpg");
-}
+/* body {
+    /* background-color: #34495e; */
+    /* margin-top: 2rem; 
+} */ 
 
 .max-width {
     width: 100%;
@@ -44,10 +43,11 @@ body {
     position:absolute;
     top:17%;
     left:50%;
-    border-bottom:4px solid rgb(88, 83, 83);
+    border-bottom:4px solid rgb(43, 40, 40);
     width:0%;
     text-align:center;
     animation: line 1s linear forwards;
+    animation-iteration-count: 2;
         
 }
 
@@ -63,27 +63,37 @@ body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .swiper-slide .card {
     /* display: block; */
     width: 100%;
     height: 60vh;
-}
+    
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+} 
+
+/* body {
+    /* background-color: #34495e; */
+    /* margin-top: 2rem; 
+} */ 
+
 
 .card:hover {
-    border: 2px solid blanchedalmond;
+    border: 1px solid blanchedalmond;
     border-color: blanchedalmond;
     
     border-radius: 16px;
     text-transform: capitalize;
-     box-shadow: 0px 0px 999px 600px rgba(255, 255, 255, 0.5);
+     /* box-shadow: 0px 0px 999px 600px rgba(255, 255, 255, 0.5); */
      z-index: 500;
     color:rgb(31, 37, 33);
    }
@@ -93,10 +103,11 @@ body {
 }
 .mySwiper .cardthumb{
     border: solid;
+    width: 8em;
     height: 10rem;
     font-size: 1.5rem;
     place-items: center;
-    object-fit: cover;
+    /* object-fit: cover; */
     background: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -124,7 +135,7 @@ body {
     slideUp 0.75s .5s cubic-bezier(0.17,.88,.32,1.27) both ,
     fadeIn .25s .5s ease-in both ;
     animation-duration: 1s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 3;
     padding: 0 20px;
     text-align: center;
     text-shadow: 3px 3px 7px rgba(0,0,0,.61);
@@ -137,7 +148,7 @@ body {
 
 
 .swiper-slide .cardthumb:hover{
-    font-size: 1.70rem;
+    font-size: 1.50rem;
     place-items: center;
     border-color: blanchedalmond;
 
@@ -150,7 +161,7 @@ body {
 }
 .swiper-slide{
     padding: 0rem 0rem;
-    width: 60%;
+    width: 80%;
     height: 60vh;
 }
 @keyframes line {
