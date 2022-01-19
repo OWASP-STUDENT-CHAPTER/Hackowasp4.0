@@ -200,9 +200,36 @@ context.beginPath();
 
 
 
+//legends
 
+        ctx.beginPath();
+        roundRect(ctx, 120, 55, 30, 30, 5,true,false);
+        // To change the color on the rectangle, just manipulate the context
+        ctx.fillStyle = "#C3E0ED";
+        ctx.fill();
+        ctx.fillStyle= "black";
+        ctx.font = "bold 11pt Tahoma";
+        ctx.fillText("Webinars",160,80);
 
+        ctx.beginPath();
+        roundRect(ctx, 520, 55, 30, 30, 5,true,false);
+        // To change the color on the rectangle, just manipulate the context
+        ctx.fillStyle = "#AAC1AE";
+        ctx.fill();
+        ctx.fillStyle= "black";
+        ctx.font = "bold 11pt Tahoma";
+        ctx.fillText("HackO Checkpoints",560,80);
 
+        ctx.beginPath();
+        roundRect(ctx, 920, 55, 30, 30, 5,true,false);
+        // To change the color on the rectangle, just manipulate the context
+        ctx.fillStyle = "#F2C370";
+        ctx.fill();
+        ctx.fillStyle= "black";
+        ctx.font = "bold 11pt Tahoma";
+        ctx.fillText("Breaks/Fun Sessions",960,80);
+
+        
 
 function roundRect(ctx, x, y, width, height, radius, fill, stroke) {
         if (typeof stroke === 'undefined') {
