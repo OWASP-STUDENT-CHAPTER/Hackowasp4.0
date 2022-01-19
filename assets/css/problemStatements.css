@@ -1,0 +1,47 @@
+.main_heading {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.sub_heading {
+    text-align: center;
+    padding: 1rem 3rem;
+}
+
+.problemStatementContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.statementContainer {
+    grid-area: 1 / 1 / 7 / 2;
+    border: 1px solid black;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 6 / 4;
+}
+
+.div3 {
+    grid-area: 5 / 2 / 7 / 4;
+}
+
+.statement {
+    padding: 20px;
+    border: 1px solid black;
+}
+.statement:hover{
+    background-color: #c4956f79;
+}
+.showContainer {
+    display: none;
+    border: 1px solid black;
+    margin: 3rem 2rem 3rem 2rem;
+}
+
+.active {
+    display: block;
+}
