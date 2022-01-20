@@ -16,8 +16,7 @@ body{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    /* background-color: black!important; */
-
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Bottom Nav  */
@@ -129,6 +128,16 @@ body{
 
 /* about   */
 
+.about{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(118, 87, 130, 0.6) 0%, rgba(118, 87, 130, 0.02) 100%) !important;
+    backdrop-filter: blur(32px) !important;
+}
+.about .cardHeader{
+    background-color: #765782;
+    border-radius: 16px 16px 0px 0px;
+}
+
+
     .carouselDisp{
         display: flex;
         flex-direction: column;
@@ -143,6 +152,12 @@ body{
 .aboutFooter{
     width: 100%;
     margin-bottom: 16px;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(166, 89, 122, 0.6) 0%, rgba(166, 89, 122, 0.02) 100%) !important;
+    backdrop-filter: blur(32px) !important;
+}
+.aboutFooter .cardHeader{
+    background-color: #A6597A;
+    border-radius: 16px 16px 0px 0px;
 }
 
 .maps{
@@ -185,7 +200,8 @@ body{
 
 .socialbox a{
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 40px;
 }
 
 .iconbox{
@@ -217,7 +233,7 @@ body{
     
     width: 350px;
     height: 100px;
-    background-color: rgba(0, 0, 0, 0.055);
+    background-color: rgba(0, 0, 0, 0.274);
     
     border-radius: 5px;
 }
@@ -228,7 +244,7 @@ body{
     justify-content: center;
     width: 70px;
     height: 70px;
-    background-color: rgba(255, 255, 255, 0.842);
+    background-color: rgba(255, 255, 255, 0.562);
     margin: 0px 15px 0px 25px;
     border-radius: 5px;
 }
