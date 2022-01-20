@@ -43,7 +43,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;  
-    padding: 8px 16px;  
+    padding: 8px 16px; 
 }
 .bottomnav div{
     margin: auto 8px;
@@ -97,14 +97,6 @@ body{
     filter: drop-shadow(0px 3.69827px 1.84913px rgba(0, 0, 0, 0.25));
 }
 
-.carouselDisp{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px;
-}
-
 #timer{
     display: flex;
     flex-direction: row;
@@ -135,28 +127,22 @@ body{
     margin-left: 0;
   }
 
+/* about   */
+
+    .carouselDisp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+    }
+    
+    
 /* Footer  */
 
-.aboutowaspcard{
-    display: flex;
-    flex-direction: column;
-    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0.02) 100%);
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(32px);
-    transform: rotate(-0.19deg);
-    border: 1px solid rgba(0, 0, 0, 0.767);
-    color:rgba(255, 255, 255, 0.705);
-    border-radius: 4px;
-    height: 37vh;
-    width: fit-content;
-    box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808);
+.aboutFooter{
+    width: 100%;
     margin-bottom: 16px;
-    padding-bottom: 16px;
-    overflow: scroll;
-}
-
-.aboutowaspcard::-webkit-scrollbar {
-    width: 5px;
 }
 
 .maps{
@@ -165,20 +151,6 @@ body{
     justify-content: center;
     align-items: center;
     padding:0%;
-}
-
-.mapContent{
-    display: flex;
-    flex-direction: column;
-    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0.02) 100%);
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(32px);
-    transform: rotate(-0.19deg);
-    border: 1px solid rgba(0, 0, 0, 0.767);
-    border-radius: 4px;
-    height: 40vh;
-    width: fit-content;
-    box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808);
 }
 
 .searchbox-div{
