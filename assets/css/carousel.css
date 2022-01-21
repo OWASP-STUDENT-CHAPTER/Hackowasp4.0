@@ -2,7 +2,6 @@
     .container1 {
         position: relative;
         width: 70%;
-        height: 400px;
     }
 
     .slide {
@@ -19,48 +18,23 @@
 
     .slide img {
         width: 100%;
+		height: 300px;
+
     }
 	.carouselPlace
 	{
-		padding-top: 60px!important;
+		padding-top: 30px !important;
 	}
-  
-
-    .prev {
-        position: absolute;
-        top: 40%;
-        border: none;
-        background: rgba(32, 26, 26, 0.527);
-        color: rgb(243, 243, 243);
-        padding: 10px 16px;
-        margin-top: -25px;
-        font-size: 30px;
-        z-index: 100;
-        font-weight: 900;
-        transition: 0.5s ease-in-out;
-        left: 0;
-    }
-
-    .next {
-        position: absolute;
-        top: 40%;
-        border: none;
-        background: rgba(32, 26, 26, 0.527);
-        color: rgb(243, 243, 243);
-        padding: 10px 16px;
-        margin-top: -25px;
-        font-size: 30px;
-        z-index: 100;
-        font-weight: 900;
-        transition: 0.5s ease-in-out;
-        right: 0;
-    }
 
 
     .dots_container {
         display: flex;
         margin: 5px auto;
         width: fit-content;
+		position: absolute;
+		top: 90%;
+		left: 50%;
+		transform: translate(-50%, -50%);
     }
 
     .dots {

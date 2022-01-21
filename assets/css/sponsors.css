@@ -17,11 +17,12 @@
     height: 70%;
     width: 100%;
     box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808);
-    overflow: scroll;
+    overflow: hidden;
     overflow-x: hidden;
     position: relative;
     margin-top: 10%;
   }
+
   .sponsor-card::-webkit-scrollbar {
     width: 5px;
   }
@@ -42,7 +43,7 @@
   .sponsor-img-platinum {
     /* justify-content: center; */
     /* align-items: center; */
-    width: 200px;
+    width: 180px;
     height: 100px;
   
     /* border: 2px solid rgba(0, 0, 0, 0.767); */
@@ -71,4 +72,100 @@
     width: 300px;
     height: 100px;
     border: 1px solid blue;
+  }
+
+  @media only screen and (max-width:1025px){
+    .sponsor-img-platinum {
+      width: 150px;
+      height: 80px;
+    
+    }
+    .sponsor-img-gold {
+      width: 120px;
+      height: 60px;
+    }
+    .sponsor-img {
+      width: 100px;
+      height: 50px;
+    }
+  }
+
+  @media only screen and (max-width:769px){
+    .sponsor-img-platinum {
+      width: 400px;
+      height: 200px;
+    
+    }
+    .sponsor-img-gold {
+      width: 300px;
+      height: 150px;
+    }
+    .sponsor-img {
+      width: 150px;
+      height: 80px;
+    }
+  }
+
+  @media only screen and (max-width:415px){
+    .sponsor-img-platinum {
+      width: 220px;
+      height: 120px;
+    
+    }
+    .sponsor-img-gold {
+      width: 180px;
+      height: 100px;
+    }
+    .sponsor-img {
+      width: 140px;
+      height: 80px;
+    }
+  }
+
+  @media only screen and (max-width:415px){
+    .sponsor-img-platinum {
+      width: 220px;
+      height: 120px;
+    
+    }
+    .sponsor-img-gold {
+      width: 180px;
+      height: 100px;
+    }
+    .sponsor-img {
+      width: 140px;
+      height: 80px;
+    }
+  }
+
+  @media only screen and (max-width:361px){
+    .sponsor-img-platinum {
+      width: 200px;
+      height: 110px;
+    
+    }
+    .sponsor-img-gold {
+      width: 160px;
+      height: 90px;
+    }
+    .sponsor-img {
+      width: 120px;
+      height: 70px;
+    }
+  }
+
+  @media only screen and (max-width:321px){
+    .sponsor-img-platinum {
+      width: 180px;
+      height: 100px;
+    
+    }
+    .sponsor-img-gold {
+      width: 140px;
+      height: 80px;
+    }
+    .sponsor-img {
+      width: 100px;
+      height: 60px;
+    }
   }
