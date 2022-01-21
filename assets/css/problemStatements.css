@@ -5,6 +5,7 @@
 
 .sub_heading {
     text-align: center;
+    font-size: 1.2rem;
     padding: 1rem 3rem;
 }
 
@@ -50,4 +51,17 @@
 
 .active {
     display: block;
+}
+
+
+@media only screen and (max-width:1025px) {
+    .hackocardproblem{
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width:769px) {
+    .sub_heading{
+        font-size: 1rem;
+    }
 }
