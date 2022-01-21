@@ -56,11 +56,12 @@
 }
 
 .team-screen{
-    height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding-bottom: 0%;
 }
 
 .team-container{
