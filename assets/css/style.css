@@ -401,3 +401,9 @@ body {
 #dosLoading {
   overflow-y: visible;
 }
+
+@media only screen and (max-width: 500px){
+  .bottomnav{
+    display: none;
+  }
+}
