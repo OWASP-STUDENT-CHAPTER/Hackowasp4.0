@@ -1,34 +1,44 @@
-.screen{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.screen {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.screenPad{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 40px;
-    padding-right: 40px;
+.screenPad {
+  height: 100vh;
+  padding: 0px 40px;
 }
-
-.hackocard{
+@media (max-width: 1000px) {
+  .screenPad .about-glimpses {
     display: flex;
     flex-direction: column;
-    background: radial-gradient(100% 70% at 0% 0%, rgba(255, 255, 255, 0.425) 0%, rgba(255, 255, 255, 0.103) 80%);
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(24px);
-    color: white;
-    border-radius: 16px;
-    height: 90vh;
-    box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808);
-    position: relative;
-    padding-left: 0% !important;
-    padding-right: 0% !important; 
-    font-family: 'Poppins', sans-serif;
+  }
+  .hackocard {
+    margin: 40px 0px;
+    padding-bottom: 50px;
+  }
 }
 
+.hackocard {
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(
+    100% 70% at 0% 0%,
+    rgba(255, 255, 255, 0.425) 0%,
+    rgba(255, 255, 255, 0.103) 80%
+  );
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(24px);
+  color: white;
+  border-radius: 16px;
+  /* height: 90vh; */
+  width: 100vh;
+  box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808);
+  position: relative;
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+  font-family: 'Poppins', sans-serif;
+}
 
 /* .hackocard::-webkit-scrollbar-track {
     background: #f1f1f123;
@@ -39,70 +49,72 @@
     background: rgba(136, 136, 136, 0.418);
 } */
 
-.cardHeader{
-    display: flex;
-    flex-direction: row;
-    padding-top: 8px;
-    align-items: center;
-    padding-bottom: 8px;
-    top: 0px;
-    width: 100%;
+.cardHeader {
+  display: flex;
+  flex-direction: row;
+  padding-top: 8px;
+  align-items: center;
+  padding-bottom: 8px;
+  top: 0px;
+  width: 100%;
 }
-.cardHeader p{
-    justify-self: center;
-}
-
-.circle1, .circle2, .circle3{
-    width: 20px;
-    height: 20px;
-    margin-left: 10px;
-    border-radius: 25px;
-}
-.circle1{
-    background-color: #D0320F;
-}
-.circle2{
-    background-color: #DBA640;
-}
-.circle3{
-    background-color: #22884B;
+.cardHeader p {
+  justify-self: center;
 }
 
-.cardHeader p{
-    padding-left: 20px;
-    margin: 0;
-    font-size: 16px;
+.circle1,
+.circle2,
+.circle3 {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  border-radius: 25px;
+}
+.circle1 {
+  background-color: #d0320f;
+}
+.circle2 {
+  background-color: #dba640;
+}
+.circle3 {
+  background-color: #22884b;
 }
 
-.cardContent{
-    display: flex;
-    flex-direction: column;
-    padding: 16px 16px;
+.cardHeader p {
+  padding-left: 20px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px;
 }
 
 /* landing */
 
-.landingcardheader{
-    display: flex;
-    flex-direction: row;
-    padding-top: 8px;
-    align-items: center;
-    padding-bottom: 8px;
-    position: sticky;
-    top: 0px;
-    background-color: rgba(255, 255, 255, 0);
+.landingcardheader {
+  display: flex;
+  flex-direction: row;
+  padding-top: 8px;
+  align-items: center;
+  padding-bottom: 8px;
+  position: sticky;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0);
 }
 
-.landingcard{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 16px;
-    height: 70vh;
-    width: 100vh;
-    box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0);
-    /* overflow: scroll; */
-    position: relative;
+.landingcard {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  height: 70vh;
+  width: 100vh;
+  box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0);
+  /* overflow: scroll; */
+  position: relative;
 }
