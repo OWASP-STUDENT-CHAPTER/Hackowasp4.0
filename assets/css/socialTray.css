@@ -61,6 +61,7 @@
   width: 40px;
   height: 40px;
   cursor: pointer;
+  background: none;
 }
 
 @media (max-width: 780px) {
