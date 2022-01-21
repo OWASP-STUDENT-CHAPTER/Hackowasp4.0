@@ -48,7 +48,6 @@ body {
 
 .bottomnav {
   position: fixed;
-  width: ;
   background: #cc804279;
   box-shadow: 0px 0px 24px 8px rgba(0, 0, 0, 0.281);
   backdrop-filter: blur(8px);
