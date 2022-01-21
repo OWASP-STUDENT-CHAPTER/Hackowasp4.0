@@ -84,7 +84,7 @@ body {
 }
 
 .register-buttons button {
-  width: 250px;
+  width: 280px;
   margin: 0px 20px;
   height: 50px;
   border-radius: 10px;
@@ -145,11 +145,11 @@ body {
 
 @media (max-width: 1100px) {
   .register-buttons {
-    margin-top: 60px;
+    margin-top: 100px;
   }
 
   #timer {
-    margin-top: 40px;
+    margin-top: 100px;
   }
 
   #timer p {
@@ -160,12 +160,18 @@ body {
 }
 @media (max-width: 900px) {
   .register-buttons {
-    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .register-buttons button {
+    margin: 10px auto;
   }
 
   #timer {
     font-size: 18px;
-    margin-top: 40px;
+    margin-top: 60px;
   }
 
   #timer span {
@@ -181,14 +187,16 @@ body {
 
 @media (max-width: 500px) {
   .register-buttons {
-    margin-top: 100px;
+    margin-top: 60px;
   }
 
   .register-buttons button {
-    width: 160px;
-    margin: 0px 20px;
+    width: 180px;
     height: 40px;
-    font-size: 14px;
+    font-size: 10px;
+  }
+  .register-buttons button {
+    margin: 10px auto;
   }
 
   .mentorbtn {
@@ -198,8 +206,8 @@ body {
   }
 
   #timer {
-    font-size: 18px;
-    margin-top: 80px;
+    font-size: 16px;
+    margin-top: 40px;
   }
 
   .countdowntime {
@@ -207,7 +215,7 @@ body {
   }
 
   #timer span {
-    font-size: 34px;
+    font-size: 30px;
     margin: 0 3px 0 15px;
     padding: 15px 15px;
   }
