@@ -8,6 +8,12 @@
     padding: 1rem 3rem;
 }
 
+.hackocardproblem{
+    width: 81%;
+    height: auto;
+    padding-bottom: 25px;
+}
+
 .problemStatementContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
