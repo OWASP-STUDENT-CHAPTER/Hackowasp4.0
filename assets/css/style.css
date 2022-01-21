@@ -147,6 +147,9 @@ body {
   .register-buttons {
     margin-top: 100px;
   }
+  .register-buttons button {
+    margin: 10px auto;
+  }
 
   #timer {
     margin-top: 100px;
