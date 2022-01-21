@@ -1,13 +1,11 @@
 .tray-container {
   width: 10%;
-
   position: absolute;
   top: 15%;
   left: 10%;
   transform: translate(-50%, -50%);
 }
 .social-container {
-  height: 100%;
   position: relative;
 }
 .social-container .social {

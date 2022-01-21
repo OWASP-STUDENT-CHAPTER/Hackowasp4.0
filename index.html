@@ -135,7 +135,7 @@
   </div>
 
   <!-- Landing Page  -->
-  <section class="screen" id="landing">
+  <section class="screen" id="landing" style="height: 100vh;">
     <div class="landingcard">
       <!-- <div class="cardHeader landingcardheader">
               <div class="circle1"></div>
@@ -248,6 +248,111 @@
           <div class="dots_container" id="indicator"></div>
         </div>
 
+      </div>
+    </div>
+  </section>
+
+  <section class="timeline screenPad  screenpad1">
+    <div class="hackocard timeLine-card">
+      <div class="cardHeader">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle2"></div>
+        <p>Timeline.exe</p>
+      </div>
+      <div class="cardContent landing">
+
+        <canvas id="canvas" width="1302" height="935" style="border:1px;">
+
+
+        </canvas>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="screen" id="problems">
+    <div class="hackocard hackocardproblem">
+      <div class="cardHeader">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <p>Problem Statement.txt</p>
+
+      </div>
+      <div class="problemStatementContainer">
+        <div class="statementContainer">
+          <div class="statement" id="index1">Statement1</div>
+          <div class="statement" id="index2">Statement2</div>
+          <div class="statement" id="index3">Statement3</div>
+          <div class="statement" id="index4">Statement4</div>
+          <div class="statement" id="index5">Statement5</div>
+          <div class="statement" id="index6">Statement5</div>
+          <div class="statement" id="index7">Statement5</div>
+        </div>
+        <div class="div2">
+          <div class="showContainer index1 active">
+            <div class="main_heading">Theme</div>
+            <p class="sub_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+              cupiditate dolorum ducimus esse nostrum, obcaecati officiis omnis praesentium sit? Accusantium
+              adipisci aliquam amet beatae culpa cumque, distinctio doloribus eligendi esse exercitationem
+              facilis fugit hic id maxime nihil nobis nulla obcaecati, odio optio, possimus quas reprehenderit
+              sed sequi suscipit temporibus voluptate.</p>
+          </div>
+          <div class="showContainer index2">
+            <div class="main_heading">secondTheme</div>
+            <p class="sub_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+              cupiditate dolorum ducimus esse nostrum, obcaecati officiis omnis praesentium sit? Accusantium
+              adipisci aliquam amet beatae culpa cumque, distinctio doloribus eligendi esse exercitationem
+              facilis fugit hic id maxime nihil nobis nulla obcaecati, odio optio, possimus quas reprehenderit
+              sed sequi suscipit temporibus voluptate.</p>
+          </div>
+          <div class="showContainer index3">
+            <div class="main_heading">secondTheme</div>
+            <p class="sub_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+              cupiditate dolorum ducimus esse nostrum, obcaecati officiis omnis praesentium sit? Accusantium
+              adipisci aliquam amet beatae culpa cumque, distinctio doloribus eligendi esse exercitationem
+              facilis fugit hic id maxime nihil nobis nulla obcaecati, odio optio, possimus quas reprehenderit
+              sed sequi suscipit temporibus voluptate.</p>
+          </div>
+          <div class="showContainer index4">
+            <div class="main_heading">secondTheme</div>
+            <p class="sub_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+              cupiditate dolorum ducimus esse nostrum, obcaecati officiis omnis praesentium sit? Accusantium
+              adipisci aliquam amet beatae culpa cumque, distinctio doloribus eligendi esse exercitationem
+              facilis fugit hic id maxime nihil nobis nulla obcaecati, odio optio, possimus quas reprehenderit
+              sed sequi suscipit temporibus voluptate.</p>
+          </div>
+          <div class="showContainer index5">
+            <div class="main_heading">secondTheme</div>
+            <p class="sub_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+              cupiditate dolorum ducimus esse nostrum, obcaecati officiis omnis praesentium sit? Accusantium
+              adipisci aliquam amet beatae culpa cumque, distinctio doloribus eligendi esse exercitationem
+              facilis fugit hic id maxime nihil nobis nulla obcaecati, odio optio, possimus quas reprehenderit
+              sed sequi suscipit temporibus voluptate.</p>
+          </div>
+          <div class="showContainer index6">
+            <div class="main_heading">secondTheme</div>
+            <p class="sub_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+              cupiditate dolorum ducimus esse nostrum, obcaecati officiis omnis praesentium sit? Accusantium
+              adipisci aliquam amet beatae culpa cumque, distinctio doloribus eligendi esse exercitationem
+              facilis fugit hic id maxime nihil nobis nulla obcaecati, odio optio, possimus quas reprehenderit
+              sed sequi suscipit temporibus voluptate.</p>
+          </div>
+          <div class="showContainer index7">
+            <div class="main_heading">seventh</div>
+            <p class="sub_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+              cupiditate dolorum ducimus esse nostrum, obcaecati officiis omnis praesentium sit? Accusantium
+              adipisci aliquam amet beatae culpa cumque, distinctio doloribus eligendi esse exercitationem
+              facilis fugit hic id maxime nihil nobis nulla obcaecati, odio optio, possimus quas reprehenderit
+              sed sequi suscipit temporibus voluptate.</p>
+          </div>
+
+        </div>
+        <!-- <div class="div3">
+                          <img src="assets/media/icons/setting.png" alt="">
+                        </div>  -->
       </div>
     </div>
   </section>
@@ -365,11 +470,11 @@
               <div class="prizes-container">
                 <div class="content-inner">
                   <div class="content-front">
-                    <div class="cf-inner">
+                    <div class="cf-inner cf-inner2">
                       <div class="bg"></div>
                       <div class="overlay"></div>
                       <div class="inner">
-                        <img src="./assets/media/1st.png" class="flex-img-prizes" alt="">
+                        <img src="./assets/media/1st.png" class="flex-img-prizes flex-img-prizes2" alt="">
                       </div>
                     </div>
                   </div>
@@ -388,11 +493,11 @@
               <div class="prizes-container">
                 <div class="content-inner">
                   <div class="content-front">
-                    <div class="cf-inner">
+                    <div class="cf-inner cf-inner2">
                       <div class="bg"></div>
                       <div class="overlay"></div>
                       <div class="inner">
-                        <img src="./assets/media/1st.png" class="flex-img-prizes" alt="">
+                        <img src="./assets/media/1st.png" class="flex-img-prizes flex-img-prizes2" alt="">
                       </div>
                     </div>
                   </div>
@@ -718,96 +823,8 @@
   </section>
 
 
-
-
-  <!-- ProblemStatements PAGE  -->
-  <section class="screen" id="problems">
-    <div class="hackocard hackocardproblem">
-      <div class="cardHeader">
-        <div class="circle1"></div>
-        <div class="circle2"></div>
-        <div class="circle3"></div>
-        <p>Problem Statement.txt</p>
-
-      </div>
-      <div class="problemStatementContainer">
-        <div class="statementContainer">
-          <div class="statement" id="index1">Statement1</div>
-          <div class="statement" id="index2">Statement2</div>
-          <div class="statement" id="index3">Statement3</div>
-          <div class="statement" id="index4">Statement4</div>
-          <div class="statement" id="index5">Statement5</div>
-          <div class="statement" id="index6">Statement5</div>
-          <div class="statement" id="index7">Statement5</div>
-        </div>
-        <div class="div2">
-          <div class="showContainer index1 active">
-            <div class="main_heading">Theme</div>
-            <p class="sub_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
-              cupiditate dolorum ducimus esse nostrum, obcaecati officiis omnis praesentium sit? Accusantium
-              adipisci aliquam amet beatae culpa cumque, distinctio doloribus eligendi esse exercitationem
-              facilis fugit hic id maxime nihil nobis nulla obcaecati, odio optio, possimus quas reprehenderit
-              sed sequi suscipit temporibus voluptate.</p>
-          </div>
-          <div class="showContainer index2">
-            <div class="main_heading">secondTheme</div>
-            <p class="sub_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
-              cupiditate dolorum ducimus esse nostrum, obcaecati officiis omnis praesentium sit? Accusantium
-              adipisci aliquam amet beatae culpa cumque, distinctio doloribus eligendi esse exercitationem
-              facilis fugit hic id maxime nihil nobis nulla obcaecati, odio optio, possimus quas reprehenderit
-              sed sequi suscipit temporibus voluptate.</p>
-          </div>
-          <div class="showContainer index3">
-            <div class="main_heading">secondTheme</div>
-            <p class="sub_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
-              cupiditate dolorum ducimus esse nostrum, obcaecati officiis omnis praesentium sit? Accusantium
-              adipisci aliquam amet beatae culpa cumque, distinctio doloribus eligendi esse exercitationem
-              facilis fugit hic id maxime nihil nobis nulla obcaecati, odio optio, possimus quas reprehenderit
-              sed sequi suscipit temporibus voluptate.</p>
-          </div>
-          <div class="showContainer index4">
-            <div class="main_heading">secondTheme</div>
-            <p class="sub_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
-              cupiditate dolorum ducimus esse nostrum, obcaecati officiis omnis praesentium sit? Accusantium
-              adipisci aliquam amet beatae culpa cumque, distinctio doloribus eligendi esse exercitationem
-              facilis fugit hic id maxime nihil nobis nulla obcaecati, odio optio, possimus quas reprehenderit
-              sed sequi suscipit temporibus voluptate.</p>
-          </div>
-          <div class="showContainer index5">
-            <div class="main_heading">secondTheme</div>
-            <p class="sub_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
-              cupiditate dolorum ducimus esse nostrum, obcaecati officiis omnis praesentium sit? Accusantium
-              adipisci aliquam amet beatae culpa cumque, distinctio doloribus eligendi esse exercitationem
-              facilis fugit hic id maxime nihil nobis nulla obcaecati, odio optio, possimus quas reprehenderit
-              sed sequi suscipit temporibus voluptate.</p>
-          </div>
-          <div class="showContainer index6">
-            <div class="main_heading">secondTheme</div>
-            <p class="sub_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
-              cupiditate dolorum ducimus esse nostrum, obcaecati officiis omnis praesentium sit? Accusantium
-              adipisci aliquam amet beatae culpa cumque, distinctio doloribus eligendi esse exercitationem
-              facilis fugit hic id maxime nihil nobis nulla obcaecati, odio optio, possimus quas reprehenderit
-              sed sequi suscipit temporibus voluptate.</p>
-          </div>
-          <div class="showContainer index7">
-            <div class="main_heading">seventh</div>
-            <p class="sub_heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
-              cupiditate dolorum ducimus esse nostrum, obcaecati officiis omnis praesentium sit? Accusantium
-              adipisci aliquam amet beatae culpa cumque, distinctio doloribus eligendi esse exercitationem
-              facilis fugit hic id maxime nihil nobis nulla obcaecati, odio optio, possimus quas reprehenderit
-              sed sequi suscipit temporibus voluptate.</p>
-          </div>
-
-        </div>
-        <!-- <div class="div3">
-                          <img src="assets/media/icons/setting.png" alt="">
-                        </div>  -->
-      </div>
-    </div>
-  </section>
-
   <!-- fAQ PAGE  -->
-  <section class="screenPad" id="faq">
+  <section class="screenPad  screenpad1" id="faq">
     <div class="  hackocard cardsize faqcontainer">
       <div class="cardHeader faq-header">
         <div class="circle1"></div>
@@ -860,28 +877,8 @@
     </div>
   </section>
 
-  <section class="timeline screenPad">
-    <div class="hackocard timeLine-card">
-      <div class="cardHeader">
-        <div class="circle1"></div>
-        <div class="circle2"></div>
-        <div class="circle2"></div>
-        <p>Timeline.exe</p>
-      </div>
-      <div class="cardContent landing">
-
-        <canvas id="canvas" width="1302" height="935" style="border:1px;">
-
-
-        </canvas>
-
-
-      </div>
-    </div>
-  </section>
-
   <!-- Footer  -->
-  <section class="screenPad" id="footer">
+  <section class="screenPad  screenpad1" id="footer">
     <div class="row justify-content-around">
 
       <div class="col-6">

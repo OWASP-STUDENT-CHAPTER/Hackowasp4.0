@@ -53,6 +53,10 @@
     display: block;
 }
 
+.problems-mobile{
+    display: none;
+}
+
 
 @media only screen and (max-width:1025px) {
     .hackocardproblem{
@@ -63,5 +67,14 @@
 @media only screen and (max-width:769px) {
     .sub_heading{
         font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .problems-mobile{
+        display: block;
+    }
+    .problems-laptop{
+        display: none;
     }
 }

@@ -179,16 +179,6 @@ html {
 
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-/* default */
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
 /* .flip-card-container */
 .flip-card-container {
   --hue: 150;
