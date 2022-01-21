@@ -5,8 +5,9 @@
   justify-content: center;
 }
 .screenPad {
-  height: 100vh;
+  height: auto;
   padding: 0px 40px;
+  margin-top: 8rem;
 }
 @media (max-width: 1000px) {
   .screenPad .about-glimpses {
