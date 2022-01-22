@@ -30,5 +30,7 @@
 @media (max-width: 500px) {
   .console-container {
     font-size: 18px;
+    width: auto;
+    margin: auto;
   }
 }
