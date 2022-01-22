@@ -23,11 +23,23 @@ body {
   width: 700px;
 }
 
+@media (max-width: 1025px) {
+  .main-logo {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 769px) {
+  .main-logo {
+    width: 700px;
+  }
+}
 @media (max-width: 700px) {
   .main-logo {
     width: 500px;
   }
 }
+
 @media (max-width: 440px) {
   .main-logo {
     width: 400px;
@@ -160,6 +172,10 @@ body {
     margin-top: 100px;
   }
 
+  #timer span{
+    font-size: 100px;
+  }
+
   #timer p {
     font-size: 20px;
     letter-spacing: 1px;
@@ -231,6 +247,9 @@ body {
     margin-top: 10px;
   }
 }
+
+
+
 @media (max-width: 350px) {
   #timer span {
     font-size: 20px;
@@ -425,6 +444,14 @@ body {
   }
 }
 
+.concontact{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 /* Footer */
 @media (max-width: 1100px) {
   .map iframe {
@@ -444,6 +471,14 @@ body {
     padding-bottom: 40px;
   }
 }
+
+@media screen and (max-width:769px) {
+  .concontact{
+    position: relative;
+    top: 250px;
+  }
+}
+
 @media (max-width: 500px) {
   .socialhandles {
     display: grid;
@@ -455,5 +490,9 @@ body {
   .map iframe {
     width: 280px;
     height: 200px;
+  }
+  .concontact{
+    position: relative;
+    top: 280px;
   }
 }

@@ -27,6 +27,19 @@
   left: 10px;
 }
 
+@media (max-width: 1025px) {
+  .console-container {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 769px) {
+  .console-container {
+    font-size: 30px;
+  }
+}
+
+
 @media (max-width: 500px) {
   .console-container {
     font-size: 18px;
