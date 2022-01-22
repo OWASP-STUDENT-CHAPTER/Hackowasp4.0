@@ -62,13 +62,19 @@
   background: none;
 }
 
+@media (min-width: 1000px) and (min-height: 1300px) {
+  .social-container .social-drop {
+    top: 300px;
+  }
+}
+
 @media (max-width: 780px) {
   .tray-icon {
     padding-left: 36px;
   }
   .social-container .social-drop {
     height: 260px;
-    top: 140px;
+    top: 200px;
     width: 60px;
   }
   .social-container .social-drop li {
@@ -81,13 +87,23 @@
 @media (max-width: 500px) {
   .social-container .social-drop {
     height: 212px;
-    top: 110px;
+    top: 140px;
     width: 54px;
   }
   .social-container .social-drop li {
     font-size: 26px;
     width: 26px;
     height: 24px;
+  }
+}
+@media (max-width: 400px) {
+  .social-container .social-drop {
+    top: 110px;
+  }
+}
+@media (max-width: 400px) and (min-height: 800px) {
+  .social-container .social-drop {
+    top: 160px;
   }
 }
 @media (max-width: 350px) {
