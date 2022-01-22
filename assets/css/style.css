@@ -33,6 +33,11 @@ body {
     width: 400px;
   }
 }
+@media (max-width: 340px) {
+  .main-logo {
+    width: 340px;
+  }
+}
 
 /* Bottom Nav  */
 .bottomnav-area {
@@ -183,8 +188,6 @@ body {
   }
   #timer p {
     font-size: 16px;
-    letter-spacing: 1px;
-    margin-top: 10px;
   }
 }
 
@@ -226,6 +229,16 @@ body {
     font-size: 14px;
     letter-spacing: 1px;
     margin-top: 10px;
+  }
+}
+@media (max-width: 350px) {
+  #timer span {
+    font-size: 20px;
+  }
+  #timer p {
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 12px;
   }
 }
 
@@ -297,6 +310,7 @@ body {
   flex-direction: row;
   /* overflow-x: scroll; */
   justify-content: center;
+  text-align: center;
 }
 
 .socialbox {
@@ -305,6 +319,9 @@ body {
   align-items: center;
   justify-content: center;
   margin-right: 16px;
+}
+.socialbox.facebook {
+  margin-right: 0px;
 }
 
 .socialbox a {
@@ -402,8 +419,41 @@ body {
   overflow-y: visible;
 }
 
-@media only screen and (max-width: 500px){
-  .bottomnav{
+@media only screen and (max-width: 500px) {
+  .bottomnav {
     display: none;
+  }
+}
+
+/* Footer */
+@media (max-width: 1100px) {
+  .map iframe {
+    width: 400px;
+    height: 200px;
+  }
+}
+@media (max-width: 900px) {
+  #footer .hackocard {
+    padding-bottom: 0px;
+  }
+  .map iframe {
+    width: 400px;
+    height: 200px;
+  }
+  .cardContent.contactUs {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .socialhandles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .socialbox {
+    margin-right: 0px;
+  }
+  .map iframe {
+    width: 280px;
+    height: 200px;
   }
 }

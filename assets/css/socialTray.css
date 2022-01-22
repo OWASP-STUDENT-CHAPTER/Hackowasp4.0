@@ -90,6 +90,18 @@
     height: 24px;
   }
 }
+@media (max-width: 350px) {
+  .social-container .social-drop {
+    height: 190px;
+    top: 90px;
+    width: 46px;
+  }
+  .social-container .social-drop li {
+    font-size: 22px;
+    width: 18px;
+    height: 20px;
+  }
+}
 
 .social-container .social-drop .ln:hover {
   color: #d7ba89;
