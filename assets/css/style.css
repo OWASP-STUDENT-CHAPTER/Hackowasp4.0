@@ -19,6 +19,32 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+section
+{
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+#about {
+  background-image: url("../media/backgrounds/about.png");
+  box-shadow: 0 0 100px 2px rgba(0, 0, 0, 0.849);
+}
+#timeline {
+  background-image: url("../media/backgrounds/about.png");
+}
+#problems {
+  background-image: url("../media/backgrounds/problems.png");
+}
+#prizes {
+  background-image: url("../media/backgrounds/prizes.png");
+}
+#sponsor {
+  background-image: url("../media/backgrounds/sponsers.png");
+}
+#faq {
+  background-image: url("../media/backgrounds/faq.png");
+}
 .main-logo {
   width: 700px;
 }
