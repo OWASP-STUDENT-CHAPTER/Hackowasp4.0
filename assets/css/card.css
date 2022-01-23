@@ -5,12 +5,12 @@
 }
 .screenPad {
   padding: 0px 40px;
-  margin-top: 8rem;
+  padding: 8rem 2rem;
 }
 
-.screenpad1{
+/* .screenpad1{
   margin: 50px 0;
-}
+} */
 
 @media (max-width: 1000px) {
   .screenPad .about-glimpses {
