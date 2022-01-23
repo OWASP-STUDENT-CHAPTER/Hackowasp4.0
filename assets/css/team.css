@@ -1,4 +1,6 @@
-.team-container{
+
+
+  .team-container{
     
     display: flex;
     align-items: center;
@@ -54,11 +56,12 @@
 }
 
 .team-screen{
-    height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding-bottom: 0%;
 }
 
 .team-container{
@@ -176,16 +179,6 @@ html {
 
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-/* default */
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
 /* .flip-card-container */
 .flip-card-container {
   --hue: 150;
@@ -267,7 +260,7 @@ figure,
 }
 
 /* img */
-img {
+.card-front img {
   height: 100%;
   border-radius: 24px;
 }
