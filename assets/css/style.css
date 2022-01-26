@@ -450,6 +450,20 @@ section
   transform: translate(100%, 100%);
 }
 
+.mlh-code{
+  margin-top: 40px;
+}
+
+.mlh-code a{
+  color: white;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.mlh-code a:hover{
+  color: white;
+}
+
 /* loading page  */
 
 .loadingmsg {
