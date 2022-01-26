@@ -1,0 +1,16 @@
+.ca-section{
+    background-color: black;
+    height: 100vh;
+    padding-top: 2rem!important;
+}
+
+.ca-heading{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.ca-heading h1{
+    font-size: 70px;
+}
