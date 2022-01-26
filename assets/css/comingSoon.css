@@ -9,7 +9,7 @@
     display: none;
   }
 
-  @-webkit-keyframes textAnim {
+  @keyframes textAnim {
     0% {font-size: 30px; fill: white;}
     10% {font-size: 50px; fill: #603B5B;}
     40% {font-size: 40px; fill: #61418F}
@@ -42,7 +42,7 @@
     display: none;
   }
   
-  @-webkit-keyframes textAnim {
+  @keyframes textAnim {
     0% {font-size: 80px; fill: white;}
     10% {font-size: 100px; fill: #603B5B;}
     40% {font-size: 70px; fill: #61418F}
