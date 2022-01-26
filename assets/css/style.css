@@ -12,12 +12,13 @@
 } */
 body {
   overflow-x: hidden;
-  background-image: url('../media/looped.gif');
+  overflow: hidden;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Poppins', sans-serif;
 }
+canvas { width: 100%; height: 100% }  
 
 section
 {
@@ -26,24 +27,10 @@ section
   background-attachment: fixed;
 }
 #about {
-  background-image: url("../media/backgrounds/about.png");
   box-shadow: 0 0 100px 2px rgba(0, 0, 0, 0.849);
 }
-#timeline {
-  background-image: url("../media/backgrounds/about.png");
-}
-#problems {
-  background-image: url("../media/backgrounds/problems.png");
-}
-#prizes {
-  background-image: url("../media/backgrounds/prizes.png");
-}
-#sponsor {
-  background-image: url("../media/backgrounds/sponsers.png");
-}
-#faq {
-  background-image: url("../media/backgrounds/faq.png");
-}
+
+
 .main-logo {
   width: 700px;
 }
