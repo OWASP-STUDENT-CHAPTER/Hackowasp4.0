@@ -311,7 +311,7 @@ section
     rgba(118, 87, 130, 0.6) 0%,
     rgba(118, 87, 130, 0.02) 100%
   ) !important;
-  backdrop-filter: blur(32px) !important;
+  backdrop-filter: blur(-1px) !important;
 }
 .about .cardHeader {
   background-color: #765782;
