@@ -91,6 +91,7 @@
 }
 
 .cardContent {
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   padding: 16px 16px;
