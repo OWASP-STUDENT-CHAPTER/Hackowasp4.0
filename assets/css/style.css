@@ -451,12 +451,19 @@ section
 }
 
 .mlh-code{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.616);
+  border:2px solid black;
   margin-top: 40px;
+  padding: 10px 0px;
+  border-radius: 10px;
 }
 
 .mlh-code a{
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 20px;
 }
 
