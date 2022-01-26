@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+/*********ANIMATED**********/
+
+@media (max-width: 900px) {
+  /* phone class */
+  .pc-text {
+    display: none;
+  }
+
+  @-webkit-keyframes textAnim {
+    0% {font-size: 30px; fill: white;}
+    10% {font-size: 50px; fill: #603B5B;}
+    40% {font-size: 40px; fill: #61418F}
+    100% {font-size: 30px; fill: white;}
+  }
+
+  #l8 {
+    animation-delay: .1s;
+    -webkit-animation-delay: .1s;
+  }
+  #l9 {
+    animation-delay:.2s;
+    -webkit-animation-delay:.2s;
+  }
+  #l10 {
+    animation-delay: .3s;
+    -webkit-animation-delay: .3s;
+  }
+  #l11 {
+    animation-delay: .4s;
+    -webkit-animation-delay: .4s;
+  }
+
+}
+
+
+@media (min-width: 901px) {
+  /* Desktop Class */
+  .phone-text {
+    display: none;
+  }
+  
+  @-webkit-keyframes textAnim {
+    0% {font-size: 80px; fill: white;}
+    10% {font-size: 100px; fill: #603B5B;}
+    40% {font-size: 70px; fill: #61418F}
+    100% {font-size: 80px; fill: white;}
+  }
+
+  #l8 {
+    animation-delay: .7s;
+    -webkit-animation-delay: .7s;
+  }
+  #l9 {
+    animation-delay: .8s;
+    -webkit-animation-delay: .8s;
+  }
+  #l10 {
+    animation-delay: .9s;
+    -webkit-animation-delay: .9s;
+  }
+  #l11 {
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+  }
+
+}
+
+#anim {
+  text-align:center;
+}
+
+text tspan{
+  font-family: Helvetica, Arial;
+  font-weight: 900;
+  animation: textAnim 2s ease infinite;
+  -webkit-animation: textAnim 2s ease infinite;
+}
+
+
+#l2 {
+  animation-delay: .1s;
+  -webkit-animation-delay: .1s;
+}
+#l3 {
+  animation-delay: .2s;
+  -webkit-animation-delay: .2s;
+}
+#l4 {
+  animation-delay: .3s;
+  -webkit-animation-delay: .3s;
+}
+#l5 {
+  animation-delay: .4s;
+  -webkit-animation-delay: .4s;
+}
+
+#l6 {
+  animation-delay: .5s;
+  -webkit-animation-delay: .5s;
+}
+
+#l7 {
+  animation-delay: .6s;
+  -webkit-animation-delay: .6s;
+}
+
+
+.space
+{
+  padding-right:20px;
+}
+
