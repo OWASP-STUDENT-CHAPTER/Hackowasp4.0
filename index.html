@@ -1435,19 +1435,7 @@
         crossorigin="anonymous"></script>
 
 <!--    Problem Statements-->
-<script>
-    $statements = $('.statement');
-    $statements.on("click", function (event) {
-        $index = $(this).attr('id');
-        $('.showContainer').css("display", "none");
-        console.log($index);
-        $(`.
-
-        ${$index}`).css("display", "block");
-        $statements.css("background", "transparent");
-        $(this).css("background", "#c4956f79");
-    })
-</script>
+<script src="assets/js/problemStatement.js"></script>
 <!-- faqPage javascript -->
 <script src="./assets/js/faqPage.js" type="text/javascript"></script>
 <!-- Devfolio Integration -->

@@ -27,7 +27,7 @@ section
   background-attachment: fixed;
 }
 #about {
-  box-shadow: 0 0 100px 2px rgba(0, 0, 0, 0.849);
+  /*box-shadow: 0 0 100px 2px rgba(0, 0, 0, 0.849);*/
 }
 
 
