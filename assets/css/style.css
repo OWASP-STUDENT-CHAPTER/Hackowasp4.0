@@ -30,6 +30,26 @@ section
   box-shadow: 0 0 100px 2px rgba(0, 0, 0, 0.849);
 }
 
+.navbar{
+  
+}
+
+.mlh-logo img {
+  z-index: 10000;
+  width: 110px;
+  position: absolute;
+  right: 100px;
+  top: 0%;
+  position: fixed;
+}
+@media (max-width: 500px) {
+  .mlh-logo img {
+    z-index: 10000;
+    width: 70px;
+    position: absolute;
+    right: 30px;
+  }
+}
 
 .main-logo {
   width: 700px;
