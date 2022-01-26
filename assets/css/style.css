@@ -450,6 +450,27 @@ section
   transform: translate(100%, 100%);
 }
 
+.mlh-code{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.616);
+  border:2px solid black;
+  margin-top: 40px;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+
+.mlh-code a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.mlh-code a:hover{
+  color: white;
+}
+
 /* loading page  */
 
 .loadingmsg {
