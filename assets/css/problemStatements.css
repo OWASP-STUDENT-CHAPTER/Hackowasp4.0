@@ -40,11 +40,13 @@
     padding: 20px;
     border: 1px solid black;
 }
+
 .statement:hover{
-    background-color: #c4956f79;
+    background-color: #cd8983 !important;
 }
 .showContainer {
     display: none;
+    color: #000;
     border: 1px solid black;
     margin: 3rem 2rem 3rem 2rem;
 }
