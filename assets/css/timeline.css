@@ -2,4 +2,10 @@
     height: 100%!important;
     width: 100%!important;
     overflow-y: auto;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(198, 100, 97, 0.6) 0%, rgba(198, 100, 97, 0.02) 100%) !important;
+    backdrop-filter: blur(32px) !important;
+}
+.timeLine-card .cardHeader{
+    background-color: #C66461;
+    border-radius: 16px 16px 0px 0px;
 }
