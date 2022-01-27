@@ -154,19 +154,23 @@ section {
   width: 250px;
   /* height: 50px; */
 }
-
+.aboutContent .teambtn {
+  text-align: center;
+}
+.teamButton {
+  display: flex;
+  justify-content: center;
+}
 .teambtn {
   width: 250px;
-  margin: 0px 20px;
-  margin-left: 25%;
-  margin-top: 5%;
+  margin-top: 30px;
   height: 50px;
   border-radius: 10px;
   border: none;
   background-color: #765782;
   color: white;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 1.3rem;
   filter: drop-shadow(0px 3.69827px 1.84913px rgba(0, 0, 0, 0.25));
 }
 
