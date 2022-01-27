@@ -57,7 +57,7 @@ section {
   }
 }
 
-#tagline{
+#tagline {
   color: white;
 }
 
@@ -516,6 +516,9 @@ section {
   }
   .cardContent.contactUs {
     padding-bottom: 40px;
+  }
+  .searchbox-div {
+    margin-bottom: 50px;
   }
 }
 
