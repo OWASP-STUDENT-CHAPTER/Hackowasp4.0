@@ -51,3 +51,67 @@
     box-shadow:0 1px 8px rgba(0,0,0,0.5);
 }
 
+.tooltipnav {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 0.8rem 1rem;
+    border-radius: 40px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    opacity: 0;
+    pointer-events: none;
+    text-transform: uppercase;
+    transform: translate(-50%, -100%);
+    transition: all 0.3s ease;
+    z-index: 1;
+  }
+  .tooltipnav::after {
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    content: "";
+    border: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: transparent;
+    /* transform: translate(-50%, 100%); */
+  }
+
+  .navicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* width: 80px;
+    height: 80px;  */
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 2.5rem;
+    text-decoration: none;
+    transition: all 0.15s ease;
+  }
+
+  .navicon .tooltipnav{
+    /* background: #2b97f1;*/
+    color: currentColor; 
+    background: #cc804279;
+    box-shadow: 0px 0px 24px 8px rgb(0 0 0 /28%);
+    backdrop-filter: blur(8px);
+  }
+
+  .navicon:hover {
+    color: #fff;
+  }
+  .navicon:hover .tooltipnav {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, -150%);
+  }
+  .navicon:active {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
+  }
