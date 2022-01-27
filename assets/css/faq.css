@@ -215,13 +215,6 @@
     margin-left: 10px;
   }
 
-  .question-menu {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-
   .question_nav {
     margin-bottom: 2px;
   }
@@ -237,6 +230,20 @@
     padding: 10px 20px;
     margin-left: 0px;
     border-radius: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .question-menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media (max-width: 400px) {
+  .question-menu {
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }
 @media (max-width: 340px) {
