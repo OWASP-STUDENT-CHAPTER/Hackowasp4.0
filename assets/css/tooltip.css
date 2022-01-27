@@ -1,53 +1,63 @@
-.tooltip {
-    display:inline-block;
-    position:relative;
-    border-bottom:1px dotted #666;
-    text-align:left;
-}
+.tooltipnav {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 0.8rem 1rem;
+    border-radius: 40px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    opacity: 0;
+    pointer-events: none;
+    text-transform: uppercase;
+    transform: translate(-50%, -100%);
+    transition: all 0.3s ease;
+    z-index: 1;
+  }
+  .tooltipnav::after {
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    content: "";
+    border: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: transparent;
+    /* transform: translate(-50%, 100%); */
+  }
 
-.tooltip h3 {margin:12px 0;}
+  .navicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* width: 80px;
+    height: 80px;  */
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 2.5rem;
+    text-decoration: none;
+    transition: all 0.15s ease;
+  }
 
-.hometooltip {
-    min-width:200px;
-    max-width:400px;
-    top:-20px;
-    left:50%;
-    transform:translate(-30%,-100%);
-    padding:10px 20px;
-    color:#ffffff;
-    background-color:#009cdc;
-    font-weight:normal;
-    font-size:14px;
-    border-radius:8px;
-    position:absolute;
-    z-index:99999999;
-    box-sizing:border-box;
-    box-shadow:0 1px 8px rgba(0,0,0,0.5);
-    display:none;
-}
+  .navicon .tooltipnav{
+    color: white; 
+    background: #4f3e68;
+    box-shadow: 0px 0px 24px 8px rgb(0 0 0 /28%);
+    backdrop-filter: blur(8px);
+  }
 
-.tooltip:hover .hometooltip {
-    display:block;
-}
-
- .hometooltip i {
-    position:absolute;
-    top:100%;
-    left:30%;
-    margin-left:-15px;
-    width:30px;
-    height:15px;
-    overflow:hidden;
-}
-
-.hometooltip i::after {
-    content:'';
-    position:absolute;
-    width:15px;
-    height:15px;
-    left:50%;
-    transform:translate(-50%,-50%) rotate(45deg);
-    background-color:#009cdc;
-    box-shadow:0 1px 8px rgba(0,0,0,0.5);
-}
-
+  .navicon:hover {
+    color: #fff;
+  }
+  .navicon:hover .tooltipnav {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, -150%);
+  }
+  .navicon:active {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
+  }
