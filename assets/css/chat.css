@@ -14,7 +14,13 @@ max-width: 250px;
 }
 
 .chattitle {
-background-color: #4f3e68; 
+  background: radial-gradient(
+    100% 70% at 0% 0%,
+    rgba(255, 255, 255, 0.425) 0%,
+    rgba(255, 255, 255, 0.103) 80%
+  );
+  background-color: rgb(79, 62, 104);
+  opacity: 0.9;
 color: white; 
 padding: 14px; 
 border-radius: 12px 12px 0px 0px;
