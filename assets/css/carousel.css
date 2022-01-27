@@ -81,11 +81,17 @@
     height: 160px;
   }
 }
-/* @media screen and (max-width: 400px) {
+@media (max-width: 450px) and (min-height: 800px) {
   .container1 {
-    top: -55%;
+    top: -15% !important;
   }
-} */
+}
+
+@media screen and (max-width: 400px) {
+  .container1 {
+    top: -45%;
+  }
+}
 
 @media screen and (max-width: 361px) {
   /* .carouselPlace {
