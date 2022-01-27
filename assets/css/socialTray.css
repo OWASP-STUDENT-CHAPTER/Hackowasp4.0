@@ -74,48 +74,53 @@
   }
   .social-container .social-drop {
     height: 260px;
-    top: 200px;
+    top: 260px;
     width: 60px;
   }
   .social-container .social-drop li {
     font-size: 30px;
     width: 30px;
     margin-left: -23px;
-    height: 34px;
+    height: 35px;
   }
 }
 @media (max-width: 500px) {
   .social-container .social-drop {
-    height: 212px;
-    top: 140px;
-    width: 54px;
+    height: 190px;
+    top: 160px;
+    width: 48px;
   }
   .social-container .social-drop li {
-    font-size: 26px;
-    width: 26px;
-    height: 24px;
+    font-size: 22px;
+    width: 12px;
+    height: 20px;
+  }
+}
+@media (max-width: 500px) and (min-height: 800px) {
+  .social-container .social-drop {
+    top: 230px;
   }
 }
 @media (max-width: 400px) {
   .social-container .social-drop {
-    top: 110px;
+    top: 140px;
   }
 }
 @media (max-width: 400px) and (min-height: 800px) {
   .social-container .social-drop {
-    top: 160px;
+    top: 190px;
   }
 }
 @media (max-width: 350px) {
   .social-container .social-drop {
-    height: 190px;
-    top: 90px;
+    height: 176px;
+    top: 120px;
     width: 46px;
   }
   .social-container .social-drop li {
-    font-size: 22px;
+    font-size: 20px;
     width: 18px;
-    height: 20px;
+    height: 16px;
   }
 }
 
