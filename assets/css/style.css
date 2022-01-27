@@ -57,12 +57,12 @@ section {
   }
 }
 
-.inverted{
+.inverted {
   background-color: white;
   color: black;
 }
 
-#tagline{
+#tagline {
   color: white;
 }
 
@@ -183,7 +183,6 @@ section {
   color: #201c39;
   border: 1px solid white;
 }
-
 
 #timer {
   display: flex;
@@ -551,6 +550,9 @@ section {
   }
   .cardContent.contactUs {
     padding-bottom: 40px;
+  }
+  .searchbox-div {
+    margin-bottom: 50px;
   }
 }
 
