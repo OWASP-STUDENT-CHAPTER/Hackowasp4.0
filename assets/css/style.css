@@ -34,7 +34,32 @@ section {
 
 .main-logo {
   width: 700px;
+
 }
+
+
+
+.floating {
+  animation: 5s ease-in-out 0s normal none infinite running Floating;
+  border: none; }
+
+@-webkit-keyframes Floating {
+  from {
+    -webkit-transform: translate(0, 0px) rotate(0.05deg); }
+  65% {
+    -webkit-transform: translate(0, -20px) rotate(0.05deg); }
+  to {
+    -webkit-transform: translate(0, 0px) rotate(0.05deg); } }
+@keyframes Floating {
+  from {
+    -webkit-transform: translate(0, 0px) rotate(0.05deg);
+    transform: translate(0, 0px) rotate(0.05deg); }
+  65% {
+    -webkit-transform: translate(0, -30px) rotate(0.05deg);
+    transform: translate(0, -20px) rotate(0.05deg); }
+  to {
+    -webkit-transform: translate(0, 0px) rotate(0.05deg);
+    transform: translate(0, 0px) rotate(0.05deg); } }
 
 @media (max-width: 700px) {
   .main-logo {
@@ -597,3 +622,5 @@ section {
     top: 280px;
   }
 }
+
+
