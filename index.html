@@ -453,21 +453,25 @@
             Welcome Hacker!
         </div>
         <div class="chatmessage">
-            Write your query here
+            <!-- <div class="ans">
+
+            </div> -->
+            <!-- <div class="question">
+
+            </div> -->
         </div>
         <div class="chatinput">
-            <form action="https://web.whatsapp.com/send?" method="get" target="_blank">
-                <input type="text" name="phone" value="905313818338" hidden>
-                <input type="text" name="text" placeholder="Type here" autocomplete="off">
+            <form class="message-box" id="mymsg" method="POST">
+                <input type="text" id="MSG" name="MSG" class="message-input" placeholder="Type message..." >
                 <button class="chatsendbutton" type="submit">
-                    <i class="fa fa-paper-plane-o"></i>
+                <i class="fas fa-paper-plane"></i>
+                <!-- submit -->
                 </button>
             </form>
         </div>
     </div>
     <div id="chatbtn" class="chatbutton">
-        <i class="fab fa-whatsapp fa-2x"></i> <span style="position: relative; top: -5px; margin-left: 10px;">Chat with us
-        !</span>
+        <span>Chat with us !</span>
     </div>
 </div>
 
@@ -1804,6 +1808,9 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
 
+<!-- ChatBot -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.concat.min.js'></script>
+<script  src="./assets/js/chatBot.js"></script>
 <!--    Problem Statements-->
 <script src="assets/js/problemStatement.js"></script>
 <!-- faqPage javascript -->
