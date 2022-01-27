@@ -57,6 +57,10 @@ section {
   }
 }
 
+#tagline{
+  color: white;
+}
+
 /* Bottom Nav  */
 .bottomnav-area {
   position: fixed;
@@ -71,7 +75,7 @@ section {
 
 .bottomnav {
   position: fixed;
-  background: #cc804279;
+  background: #4f3e68;
   box-shadow: 0px 0px 24px 8px rgba(0, 0, 0, 0.281);
   backdrop-filter: blur(8px);
   border-radius: 16px;
