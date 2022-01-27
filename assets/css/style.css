@@ -57,6 +57,11 @@ section {
   }
 }
 
+.inverted {
+  background-color: white;
+  color: black;
+}
+
 #tagline {
   color: white;
 }
@@ -148,6 +153,35 @@ section {
   text-decoration: none;
   width: 250px;
   /* height: 50px; */
+}
+
+.teambtn {
+  width: 250px;
+  margin: 0px 20px;
+  margin-left: 25%;
+  margin-top: 5%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #765782;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  filter: drop-shadow(0px 3.69827px 1.84913px rgba(0, 0, 0, 0.25));
+}
+
+.teambtn a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  width: 250px;
+  /* height: 50px; */
+}
+
+.teambtn:hover {
+  background-color: white;
+  color: #201c39;
+  border: 1px solid white;
 }
 
 #timer {
