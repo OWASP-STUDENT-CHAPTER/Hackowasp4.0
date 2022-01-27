@@ -528,7 +528,7 @@ section {
 
 .concontact {
   position: absolute;
-  top: 52%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -559,7 +559,7 @@ section {
 @media screen and (max-width: 769px) {
   .concontact {
     position: relative;
-    top: 250px;
+    top: 300px;
   }
 }
 
@@ -577,6 +577,6 @@ section {
   }
   .concontact {
     position: relative;
-    top: 280px;
+    top: 350px;
   }
 }

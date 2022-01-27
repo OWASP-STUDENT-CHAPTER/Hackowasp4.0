@@ -22,6 +22,10 @@
   position: relative;
 }
 
+marquee{
+  height: 100%;
+}
+
 .sponsor-card::-webkit-scrollbar {
   width: 5px;
 }
