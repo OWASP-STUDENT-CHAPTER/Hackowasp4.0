@@ -18,47 +18,42 @@ body {
   background-attachment: fixed;
   font-family: 'Poppins', sans-serif;
 }
-canvas { width: 100%; height: 100% }  
+canvas {
+  width: 100%;
+  height: 100%;
+}
 
-section
-{
+section {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
-#about {
-  /*box-shadow: 0 0 100px 2px rgba(0, 0, 0, 0.849);*/
-}
+/* #about {
+  box-shadow: 0 0 100px 2px rgba(0, 0, 0, 0.849);
+} */
 
 .main-logo {
   width: 700px;
 }
 
-@media (max-width: 1025px) {
-  .main-logo {
-    width: 1000px;
-  }
-}
-
-@media (max-width: 769px) {
-  .main-logo {
-    width: 700px;
-  }
-}
 @media (max-width: 700px) {
   .main-logo {
     width: 500px;
   }
 }
-
 @media (max-width: 440px) {
   .main-logo {
-    width: 400px;
+    width: 380px;
+  }
+}
+@media (max-width: 400px) {
+  .main-logo {
+    width: 340px;
   }
 }
 @media (max-width: 340px) {
   .main-logo {
-    width: 340px;
+    width: 300px;
   }
 }
 
@@ -143,12 +138,12 @@ section
   filter: drop-shadow(0px 3.69827px 1.84913px rgba(0, 0, 0, 0.25));
 }
 
-.mentorbtn a{
+.mentorbtn a {
   display: flex;
   color: white;
   text-decoration: none;
   width: 250px;
-  height: 50px;
+  /* height: 50px; */
 }
 
 #timer {
@@ -185,7 +180,7 @@ section
   margin-left: 0;
 }
 
-#timer p{
+#timer p {
   margin-top: 5px;
 }
 
@@ -201,7 +196,7 @@ section
     margin-top: 100px;
   }
 
-  #timer span{
+  #timer span {
     font-size: 100px;
   }
 
@@ -276,8 +271,6 @@ section
     margin-top: 10px;
   }
 }
-
-
 
 @media (max-width: 350px) {
   #timer span {
@@ -457,24 +450,24 @@ section
   transform: translate(100%, 100%);
 }
 
-.mlh-code{
+.mlh-code {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.616);
-  border:2px solid black;
+  border: 2px solid black;
   margin-top: 40px;
   padding: 10px 0px;
   border-radius: 10px;
 }
 
-.mlh-code a{
+.mlh-code a {
   color: white;
   text-decoration: none;
   font-size: 20px;
 }
 
-.mlh-code a:hover{
+.mlh-code a:hover {
   color: white;
 }
 
@@ -494,13 +487,12 @@ section
   }
 }
 
-.concontact{
+.concontact {
   position: absolute;
   top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 
 /* Footer */
 @media (max-width: 1100px) {
@@ -522,8 +514,8 @@ section
   }
 }
 
-@media screen and (max-width:769px) {
-  .concontact{
+@media screen and (max-width: 769px) {
+  .concontact {
     position: relative;
     top: 250px;
   }
@@ -541,7 +533,7 @@ section
     width: 280px;
     height: 200px;
   }
-  .concontact{
+  .concontact {
     position: relative;
     top: 280px;
   }
