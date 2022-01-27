@@ -422,6 +422,7 @@ section {
 
 .phoneinfo p {
   margin: 0;
+  color: white !important;
 }
 
 /* cursor  */
