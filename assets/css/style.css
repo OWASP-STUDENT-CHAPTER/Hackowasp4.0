@@ -5,7 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300&display=swap');
 
 /* @media only screen and (min-width: 1000px) {
   .cardSize {
@@ -167,6 +167,7 @@ section {
 }
 
 .mentorbtn {
+  margin: 10px 30px;
   padding: 5px 32px !important;
   font-weight: 600 !important;
   border-radius: 5px !important;
