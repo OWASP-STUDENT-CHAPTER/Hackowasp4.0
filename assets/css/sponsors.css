@@ -93,6 +93,15 @@
   margin-bottom: 10%;
   transition: 0.5s box-shadow;
 }
+.gold{
+  height: auto !important;
+}
+.platinum{
+  height: auto !important;
+}
+.silver{
+  height: auto !important;
+}
 .sponsor-img-platinum:hover{
   box-shadow: 0 0 15px 8px rgba(39, 21, 11, 0.808);
 }

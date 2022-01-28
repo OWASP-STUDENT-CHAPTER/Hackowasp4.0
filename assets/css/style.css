@@ -239,6 +239,10 @@ section {
   margin: 0px 10px;
 }
 
+.ourteambtn{
+  cursor: pointer !important;
+}
+
 #timer span {
   font-size: 60px;
   color: white;
