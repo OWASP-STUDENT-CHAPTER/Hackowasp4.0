@@ -167,6 +167,8 @@ section {
 }
 
 .mentorbtn {
+  padding: 5px 32px !important;
+  font-weight: 600 !important;
   border-radius: 5px !important;
   border: 2px solid rgb(69,111,246) !important;
   background-color: rgb(69,111,246) !important;
@@ -265,7 +267,7 @@ section {
     margin-top: 100px;
   }
   .register-buttons button {
-    margin: 10px auto;
+    margin: 10px 30px;
   }
 
   #timer {
