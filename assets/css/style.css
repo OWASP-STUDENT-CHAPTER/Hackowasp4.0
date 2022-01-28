@@ -160,6 +160,8 @@ section {
 
 .register-buttons {
   margin-top: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .register-buttons button {
@@ -214,26 +216,28 @@ section {
   height: 50px;
   border-radius: 10px;
   border: none;
-  background-color: #765782;
+  background-color: #765782 !important;
   color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
   filter: drop-shadow(0px 3.69827px 1.84913px rgba(0, 0, 0, 0.25));
+  cursor: no-drop !important;
 }
 
 .teambtn a {
   display: flex;
-  color: white;
+  color: white !important;
   text-decoration: none;
   width: 250px;
+  cursor: no-drop !important;
   /* height: 50px; */
 }
 
-.teambtn:hover {
+/* .teambtn:hover {
   background-color: white;
   color: #201c39;
   border: 1px solid white;
-}
+} */
 
 #timer {
   display: flex;
