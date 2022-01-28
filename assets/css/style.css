@@ -141,6 +141,9 @@ section {
 .bottomnav img {
   width: 40px;
 }
+.bottomnav i{
+  color: white;
+}
 
 .containerr {
   padding: 0 80px;
