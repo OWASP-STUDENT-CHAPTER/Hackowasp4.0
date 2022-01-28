@@ -387,6 +387,15 @@ section {
   border-radius: 16px 16px 0px 0px;
 }
 
+.problems{
+  background: radial-gradient(100% 100% at 0% 0%, rgba(72, 82, 116, 0.6) 0%, rgba(72, 82, 116, 0.02) 100%) !important;
+  backdrop-filter: blur(32px) !important;
+}
+.problems .cardHeader{
+  background-color: #2F4858;
+  border-radius: 16px 16px 0px 0px;
+}
+
 .carouselDisp {
   display: flex;
   flex-direction: column;

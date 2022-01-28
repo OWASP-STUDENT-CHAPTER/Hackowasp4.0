@@ -39,7 +39,7 @@ marquee{
   backdrop-filter: blur(27.1277px) !important;
 }
 .platinum .cardHeader {
-  background-color: #765782;
+  background-color: #c2c1c1;
   border-radius: 16px 16px 0px 0px;
 }
 .gold {
@@ -52,7 +52,7 @@ marquee{
 }
 .gold .cardHeader {
   /* background-color: #D8BB21; */
-  background-color: #765782;
+  background-color: #c7ae22;
   border-radius: 16px 16px 0px 0px;
 }
 .silver {
@@ -65,7 +65,7 @@ marquee{
 }
 .silver .cardHeader {
   /* background-color: #C0C0C0; */
-  background-color: #765782;
+  background-color: #a1a1a1;
   border-radius: 16px 16px 0px 0px;
 }
 
