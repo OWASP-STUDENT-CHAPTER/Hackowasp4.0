@@ -518,6 +518,14 @@ section {
   font-size: 42px;
 }
 
+.socialbox a:hover{
+  color: white !important;
+}
+.socialbox p{
+  position: relative;
+  top: 5px;
+}
+
 .phoneinfo p {
   margin: 0;
   color: white !important;
