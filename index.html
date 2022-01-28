@@ -403,7 +403,7 @@
 
 
 <!-- Chat  -->
-<div class="chatall">
+<!-- <div class="chatall">
     <div class="chatballon" id="chatarea">
         <span id="closebtn" class="kapat" style="margin-top: 7px; margin-right: 5px; z-index: 500;">X</span>
         <div class="chattitle">
@@ -415,7 +415,7 @@
         <div class="chatinput">
             <form action="https://web.whatsapp.com/send?" method="get" target="_blank">
                 <input type="text" name="phone" value="905313818338" hidden>
-                <!-- <input type="text" name="text" placeholder="Type here" autocomplete="off"> -->
+                
                 <p style="margin: 0px 10px;">Currently you can ask your query on <a href="https://discord.gg/vnpzPAD4HZ?event=932217755019665418">Discord</a></p>
                 <button class="chatsendbutton" type="submit">
                     <i class="fa fa-paper-plane-o"></i>
@@ -426,6 +426,37 @@
     <div id="chatbtn" class="chatbutton">
         <i class="fas fa-comment-dots"></i> <span style="position: relative; margin-left: 10px;">Chat with us
         !</span>
+    </div>
+</div> -->
+
+
+
+
+<!-- Chat  -->
+<div class="chatall">
+    <div class="chatballon" id="chatarea">
+        <span id="closebtn" class="kapat" style="margin-top: 7px; margin-right: 5px;">X</span>
+        <div class="chattitle">
+            Welcome Hacker!
+        </div>
+        <div class="chatmessage">
+            <!-- <div class="ans">
+            </div> -->
+            <!-- <div class="question">
+            </div> -->
+        </div>
+        <div class="chatinput">
+            <form class="message-box" id="mymsg" method="POST">
+                <input type="text" id="MSG" name="MSG" class="message-input" placeholder="Type message..." >
+                <button class="chatsendbutton" type="submit">
+                <i class="fas fa-paper-plane"></i>
+                <!-- submit -->
+                </button>
+            </form>
+        </div>
+    </div>
+    <div id="chatbtn" class="chatbutton">
+        <span>Chat with us !</span>
     </div>
 </div>
 
@@ -1893,7 +1924,8 @@
 <script src="./assets/js/heroText.js"></script>
 <script src="./assets/js/socialTray.js"></script>
 <script src="./assets/js/timeline.js"></script>
-
+<script src='https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.concat.min.js'></script>
+<script src="./assets/js/chatBot.js"></script>
 <!-- Swiper JS -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <!-- Initialize Swiper   -->
