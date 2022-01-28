@@ -4,11 +4,9 @@
   top: 15%;
   left: 10%;
   transform: translate(-50%, -50%);
-
 }
 .social-container {
   position: relative;
-
 }
 .social-container .social {
   background: radial-gradient(
@@ -88,7 +86,11 @@
     height: 35px;
   }
 }
-
+@media (max-width: 950px) and (min-height: 1100px) {
+  .social-container .social-drop {
+    top: 330px;
+  }
+}
 @media (max-width: 500px) {
   .social-container {
     display: none;

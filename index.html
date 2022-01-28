@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href="./assets/media/favicon.png" type="image/gif" sizes="16x16">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -414,7 +415,8 @@
         <div class="chatinput">
             <form action="https://web.whatsapp.com/send?" method="get" target="_blank">
                 <input type="text" name="phone" value="905313818338" hidden>
-                <input type="text" name="text" placeholder="Type here" autocomplete="off">
+                <!-- <input type="text" name="text" placeholder="Type here" autocomplete="off"> -->
+                <p style="margin: 0px 10px;">Currently you can ask your query on <a href="https://discord.gg/vnpzPAD4HZ?event=932217755019665418">Discord</a></p>
                 <button class="chatsendbutton" type="submit">
                     <i class="fa fa-paper-plane-o"></i>
                 </button>
@@ -422,7 +424,7 @@
         </div>
     </div>
     <div id="chatbtn" class="chatbutton">
-        <i class="fas fa-comment-dots"></i> <span style="position: relative; top: -5px; margin-left: 10px;">Chat with us
+        <i class="fas fa-comment-dots"></i> <span style="position: relative; margin-left: 10px;">Chat with us
         !</span>
     </div>
 </div>
@@ -438,7 +440,7 @@
         <div><a class ="navicon" href="#speakers"><img src="./assets/media/icons/fluent_chat-video-24-filled.svg" alt=""><div class = "tooltipnav">Judges</div></a></div>
         <div><a class ="navicon" href="#sponsors"><i class="fas fa-handshake"></i><div class = "tooltipnav">Sponsors</div></a></div>
         <div><a class ="navicon" href="#faq"><img src="./assets/media/icons/akar-icons_chat-question.svg" alt=""><div class = "tooltipnav">Faq</div></a></div>
-        <div><a class ="navicon" href="#footer"><img src="./assets/media/icons/grommet-icons_contact.svg" alt=""><div class = "tooltipnav">Contact Us</div></a></div>
+        <div><a class ="navicon" href="#footer"><img src="./assets/media/icons/grommet-icons_contact.svg" alt=""><div class = "tooltipnav">Contact</div></a></div>
         <!-- <div><a class ="navicon" href="#landing"><img src="./assets/media/icons/fluent_people-team-24-filled.svg" alt=""><div class = "tooltipnav">Landing</div></a></div> -->
         <div></div>
         <div></div>
@@ -469,9 +471,15 @@
                 </div>
                     
                     <div class="register-buttons">
-                        <button>Apply with Devfolio</button>
+                        <!-- <button>Apply with Devfolio</button> -->
+                        <div 
+                            class="apply-button" 
+                            data-hackathon-slug="hackowasp-4" 
+                            data-button-theme="dark-inverted"
+                            style="height: 44px; width: 312px"
+                        ></div>
                         <button class="mentorbtn">
-                            <a href="https://forms.gle/qLiDKJYT3bDNuduG7">Register as a Mentor</a>
+                            <a class="" href="https://forms.gle/qLiDKJYT3bDNuduG7" target="_blank"><span>Apply as a Mentor</span></a>
                         </button>
                     </div>
                 
@@ -525,8 +533,7 @@
                     all the
                     ingenious developers to subsume creativity with ambition and give rise to innovation in the
                     burgeoning world
-                    of technology. The event is a 36-hour long hackathon, scheduled from February 25, 2022, to February
-                    27,
+                    of technology. The event is a 36-hour long hackathon, scheduled from March 4, 2022, to March 6,
                     2022.
                     HackOWASP 4.0 stands at a national level on the global scale and strives to motivate students to go
                     beyond
@@ -1093,7 +1100,7 @@
                 <tspan id="l11">N</tspan>
               </text>
             </svg>
-          </div>
+          </div> 
 
           <div class ="phone-text" id="anim">
             <svg width="300" height="200">
@@ -1119,9 +1126,9 @@
             <tspan id="l11">N</tspan>
           </text>
         </svg>
-      </div>
-            <!--
-            <div class="cardContent aboutContent">
+      </div> 
+            
+            <!-- <div class="cardContent aboutContent">
                 <div id="flex-prizes">
                     <div class="team-screen prizes-screen" id="team-landing">
                         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -1217,8 +1224,8 @@
                         </div>
                     </div>
                 </div>
-              -->
-            </div>
+             
+            </div> -->
         </div>
 </section>
 
@@ -1291,32 +1298,42 @@
                         <div class="circle3"></div>
                         <p>PLATINUM</p>
                     </div>
-                    <!-- <div class="sponsorcardcontent">
-                        <marquee style="text-align: center" width="100%" direction="down" height="100%" speed="100%">
+                    <div class="sponsorcardcontent">
+                       
                             <div class="row">
                                 <div class="col-lg-4 col-sm-4">
-                                    <img class="sponsor-img-gold" src="./assets/media/geeks.jpg" alt=""/>
+                                    <a href="https://mlh.io/" target="_blank">
+                                        <img class="sponsor-img-platinum" src="./assets/media/mlh-logo.png" alt=""/>
+                                    </a>
                                 </div>
                                 <div class="col-lg-4 col-sm-4">
-                                    <img class="sponsor-img-gold" src="./assets/media/geeks.jpg" alt=""/>
+                                    <a href="https://devfolio.co" target="_blank">
+                                        <img class="sponsor-img-platinum" src="./assets/media/devfolio.png" alt=""/>
+                                    </a>
                                 </div>
                                 <div class="col-lg-4 col-sm-4">
-                                    <img class="sponsor-img-gold" src="./assets/media/geeks.jpg" alt=""/>
+                                    <a href="https://polygon.technology/" target="_blank">
+                                        <img class="sponsor-img-platinum" src="./assets/media/polygon.png" alt=""/>
+                                    </a>
                                 </div>
-                                <div class="col-lg-4 col-sm-4">
-                                    <img class="sponsor-img-gold" src="./assets/media/geeks.jpg" alt=""/>
-                                </div>
-                                <div class="col-lg-4 col-sm-4">
-                                    <img class="sponsor-img-gold" src="./assets/media/geeks.jpg" alt=""/>
-                                </div>
-                                <div class="col-lg-4 col-sm-4">
-                                    <img class="sponsor-img-gold" src="./assets/media/geeks.jpg" alt=""/>
-                                </div>
-                            </div>   
-                        </marquee>
-                    </div> -->
 
-                    <div class="cardContent aboutContent">
+                                <!-- <div class="col-lg-4 col-sm-4">
+                                    <img class="sponsor-img-gold" src="./assets/media/geeks.jpg" alt=""/>
+                                </div>
+                                <div class="col-lg-4 col-sm-4">
+                                    <img class="sponsor-img-gold" src="./assets/media/geeks.jpg" alt=""/>
+                                </div>
+                                <div class="col-lg-4 col-sm-4">
+                                    <img class="sponsor-img-gold" src="./assets/media/geeks.jpg" alt=""/>
+                                </div>
+                                <div class="col-lg-4 col-sm-4">
+                                    <img class="sponsor-img-gold" src="./assets/media/geeks.jpg" alt=""/>
+                                </div> -->
+                            </div>   
+                      
+                    </div>
+
+                    <!-- <div class="cardContent aboutContent">
                         <div class ="pc-text" id="anim">
                             <svg width="810" height="200">
                             <text x="400" y="125" text-anchor="middle">
@@ -1361,7 +1378,7 @@
                       </svg>
                     </div>
         
-                </div>
+                </div> -->
                 </div>
             </div>
             <div class="row">
@@ -1372,10 +1389,25 @@
                         <div class="circle3"></div>
                         <p>GOLD</p>
                     </div>
-                    <!-- <div>
-                        <marquee style="text-align: center" width="100%" direction="down" height="60%" speed="100%">
+                    <div>
+                        
                             <div class="row">
                                 <div class="col-lg-4 col-sm-4">
+                                    <a href="https://filecoin.io" target="_blank">
+                                        <img class="sponsor-img-gold" src="./assets/media/filecoin.png" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-sm-4">
+                                    <a href="https://tezos.com" target="_blank">
+                                        <img class="sponsor-img-gold" src="./assets/media/tezos.png" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-sm-4">
+                                    <a href="https://celo.org" target="_blank">
+                                        <img class="sponsor-img-gold" src="./assets/media/celo.png" alt=""/>
+                                    </a>
+                                </div>
+                                <!-- <div class="col-lg-4 col-sm-4">
                                     <img class="sponsor-img-gold" src="./assets/media/geeks.jpg" alt=""/>
                                 </div>
                                 <div class="col-lg-4 col-sm-4">
@@ -1383,21 +1415,12 @@
                                 </div>
                                 <div class="col-lg-4 col-sm-4">
                                     <img class="sponsor-img-gold" src="./assets/media/geeks.jpg" alt=""/>
-                                </div>
-                                <div class="col-lg-4 col-sm-4">
-                                    <img class="sponsor-img-gold" src="./assets/media/geeks.jpg" alt=""/>
-                                </div>
-                                <div class="col-lg-4 col-sm-4">
-                                    <img class="sponsor-img-gold" src="./assets/media/geeks.jpg" alt=""/>
-                                </div>
-                                <div class="col-lg-4 col-sm-4">
-                                    <img class="sponsor-img-gold" src="./assets/media/geeks.jpg" alt=""/>
-                                </div>
+                                </div> -->
                             </div>                            
-                        </marquee>
-                    </div> -->
+                       
+                    </div>
 
-                    <div class="cardContent aboutContent">
+                    <!-- <div class="cardContent aboutContent">
                         <div class ="pc-text" id="anim">
                             <svg width="810" height="200">
                             <text x="400" y="125" text-anchor="middle">
@@ -1442,7 +1465,7 @@
                       </svg>
                     </div>
         
-                </div>
+                </div> -->
                 </div>
             </div>
         <div class="row">
@@ -1520,52 +1543,62 @@
                     </marquee>
                 </div> -->
 
-                <div class="cardContent aboutContent">
-                    <div class ="pc-text" id="anim">
-                        <svg width="810" height="200">
-                        <text x="400" y="125" text-anchor="middle">
-                          <tspan id="l1">C</tspan>
-                          <tspan id="l2">O</tspan>
-                          <tspan id="l4">M</tspan>
-                          <tspan id="l5">I</tspan>
-                          <tspan id="l6">N</tspan>
-                          <tspan id="l7">G               </tspan>
-                        
-                          <tspan id="l8">S</tspan>
-                          <tspan id="l9">O</tspan>
-                          <tspan id="l10">O</tspan>
-                          <tspan id="l11">N</tspan>
-                        </text>
-                      </svg>
-                    </div>
-    
-                    <div class ="phone-text" id="anim">
-                      <svg width="300" height="200">
-                      <text x="150" y="125" text-anchor="middle">
-                        <tspan id="l1">C</tspan>
-                        <tspan id="l2">O</tspan>
-                        <tspan id="l4">M</tspan>
-                        <tspan id="l5">I</tspan>
-                        <tspan id="l6">N</tspan>
-                        <tspan id="l7">G               </tspan>
+                <div class="cardContent landing">
+
+                    <!-- Canvas Commented Until Timeline Is Finalised ! -->
+          
+                      <!-- <canvas id="canvas" width="1302" height="935" style="border:1px;">
+          
+          
+                      </canvas> -->
                       
-                   
-                      </text>
-                    </svg>
+          
+                            <div class ="pc-text" id="anim">
+                              <svg width="810" height="200">
+                              <text x="400" y="125" text-anchor="middle">
+                                <tspan id="l1">C</tspan>
+                                <tspan id="l2">O</tspan>
+                                <tspan id="l4">M</tspan>
+                                <tspan id="l5">I</tspan>
+                                <tspan id="l6">N</tspan>
+                                <tspan id="l7">G               </tspan>
+                              
+                                <tspan id="l8">S</tspan>
+                                <tspan id="l9">O</tspan>
+                                <tspan id="l10">O</tspan>
+                                <tspan id="l11">N</tspan>
+                              </text>
+                            </svg>
+                          </div>
+          
+                          <div class ="phone-text" id="anim">
+                            <svg width="300" height="200">
+                            <text x="150" y="125" text-anchor="middle">
+                              <tspan id="l1">C</tspan>
+                              <tspan id="l2">O</tspan>
+                              <tspan id="l4">M</tspan>
+                              <tspan id="l5">I</tspan>
+                              <tspan id="l6">N</tspan>
+                              <tspan id="l7">G               </tspan>
+                            
+                         
+                            </text>
+                          </svg>
+                        </div>
+          
+                        <div class ="phone-text" id="anim">
+                          <svg width="300" height="200">
+                          <text x="150" y="125" text-anchor="middle">
+                            <tspan id="l8">S</tspan>
+                            <tspan id="l9">O</tspan>
+                            <tspan id="l10">O</tspan>
+                            <tspan id="l11">N</tspan>
+                          </text>
+                        </svg>
+                      </div>
+          
+          
                   </div>
-    
-                  <div class ="phone-text" id="anim">
-                    <svg width="300" height="200">
-                    <text x="150" y="125" text-anchor="middle">
-                      <tspan id="l8">S</tspan>
-                      <tspan id="l9">O</tspan>
-                      <tspan id="l10">O</tspan>
-                      <tspan id="l11">N</tspan>
-                    </text>
-                  </svg>
-                </div>
-    
-            </div>
             </div>
         </div>
     </div>
@@ -1660,8 +1693,8 @@
                         successfully organizing many hackathons, tech-talks, workshops and coding nights, we have always
                         strived
                         hard to maintain the coding culture throughout the campus.
-                        <div class="teamButton">
-                            <a class="teambtn" href="https://main.owasp.co.in/team.html">Our Team</a>
+                        <div class="teamButton ourteambtn">
+                            <a class="teambtn" href="https://main.owasp.co.in/team.html" target="_blank">Our Team</a>
                         </div>
                         
                     </div>
@@ -1708,7 +1741,7 @@
                     <div class="socialhandles">
                         <!-- Instagram  -->
                         <div class="socialbox">
-                            <a href="https://www.instagram.com/owasp_tiet/">
+                            <a href="https://www.instagram.com/owasp_tiet/" target="_blank">
                                 <div class="iconbox">
                                     <i class="fab fa-instagram"></i>
                                 </div>
@@ -1717,7 +1750,7 @@
                         </div>
                         <!-- Website  -->
                         <div class="socialbox">
-                            <a href="https://main.owasp.co.in/">
+                            <a href="https://main.owasp.co.in/" target="_blank">
                                 <div class="iconbox">
                                     <i class="fas fa-globe"></i>
                                 </div>
@@ -1726,7 +1759,7 @@
                         </div>
                         <!-- Linkedin  -->
                         <div class="socialbox">
-                            <a href="https://www.linkedin.com/company/owasp-tiet/">
+                            <a href="https://www.linkedin.com/company/owasp-tiet/" target="_blank">
                                 <div class="iconbox">
                                     <i class="fab fa-linkedin" style="background: none;"></i>
                                 </div>
@@ -1735,7 +1768,7 @@
                         </div>
                         <!-- Facebook  -->
                         <div class="socialbox facebook">
-                            <a href="https://www.facebook.com/owasptsc/">
+                            <a href="https://www.facebook.com/owasptsc/" target="_blank">
                                 <div class="iconbox">
                                     <i class="fab fa-facebook"></i>
                                 </div>
@@ -1785,7 +1818,7 @@
                         </div>
                     </div>
                     <div class="mlh-code">
-                        <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of Conduct</a>
+                        <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">MLH Code of Conduct</a>
                     </div>
                 </div>
             </div>
