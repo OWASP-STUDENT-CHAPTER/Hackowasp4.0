@@ -10,7 +10,6 @@
   backdrop-filter: blur(100px);
   color: white;
   border-radius: 16px;
-  width: 81%;
   box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808);
   position: relative;
   padding-left: 0% !important;
@@ -95,12 +94,15 @@
 }
 .gold{
   height: auto !important;
+  width: 100% !important;
 }
 .platinum{
   height: auto !important;
+  width: 100% !important;
 }
 .silver{
   height: auto !important;
+  width: 100% !important;
 }
 .sponsor-img-platinum:hover{
   box-shadow: 0 0 15px 8px rgba(39, 21, 11, 0.808);
