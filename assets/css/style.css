@@ -5,7 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 /* @media only screen and (min-width: 1000px) {
   .cardSize {
@@ -176,7 +176,7 @@ section {
   color: #283340 !important;
   font-size: 20px;
   filter: drop-shadow(0px 3.69827px 1.84913px rgba(0, 0, 0, 0.25));
-  font-family: 'Nunito Sans', sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .mentorbtn:hover a{
@@ -316,13 +316,6 @@ section {
 @media (max-width: 500px) {
   .register-buttons {
     margin-top: 60px;
-  }
-
-  .register-buttons button {
-    font-size: 10px;
-  }
-  .register-buttons button {
-    margin: 10px auto;
   }
 
   .mentorbtn {
