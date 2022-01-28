@@ -168,7 +168,7 @@ section {
 
 .mentorbtn {
   margin: 10px 30px;
-  padding: 5px 32px !important;
+  padding: 5px 32px;
   font-weight: 600 !important;
   border-radius: 5px !important;
   border: 2px solid white !important;
@@ -308,6 +308,9 @@ section {
   #timer p {
     font-size: 16px;
   }
+  .mentorbtn{
+    padding: 5px 55px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -316,8 +319,6 @@ section {
   }
 
   .register-buttons button {
-    width: 180px;
-    height: 40px;
     font-size: 10px;
   }
   .register-buttons button {
@@ -325,7 +326,6 @@ section {
   }
 
   .mentorbtn {
-    width: 200px;
     margin: 0px 20px;
     height: 50px;
   }
