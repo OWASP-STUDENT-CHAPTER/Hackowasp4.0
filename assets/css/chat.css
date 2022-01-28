@@ -121,9 +121,13 @@ height: 100%;
 display: flex;
 justify-content: space-between;
 flex-direction: column;
-max-height: 200px;
+max-height: 300px;
 }
 
+#mCSB_1_container{
+ position: relative;
+ top: 0px !important; 
+}
 
 .chatmessage .question {
   background: radial-gradient(
@@ -170,6 +174,7 @@ max-height: 200px;
 display: flex;
 flex-direction: row;
 padding: 8px;
+
 }
 
 .chatinput {
