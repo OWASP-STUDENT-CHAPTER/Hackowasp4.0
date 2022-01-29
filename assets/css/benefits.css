@@ -294,4 +294,7 @@
   .flex-prizes{
     display: block !important;
   }
+  .content-inner3{
+    padding: 5% 10% !important;
+  }
 }
