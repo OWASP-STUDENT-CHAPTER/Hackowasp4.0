@@ -18,10 +18,12 @@
 }
 
 #flex-3rd{
+  display: flex;
   justify-content: center;
 }
 
 .flex-img-prizes{
+
   width: fit-content;
 }
 
@@ -46,7 +48,7 @@
   }
   
   .content-inner{
-    padding: 10% 20%;
+    padding: 5% 10%;
     width: 100%;
     color: #fff;
     position: relative;
@@ -55,8 +57,12 @@
     transition: .9s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
 
+  .content-inner3{
+    padding: 5% 20% !important;
+  }
+
   .content-inner2{
-    padding: 10% 10%;
+    padding: 10% 10% !important;
   }
   
    
