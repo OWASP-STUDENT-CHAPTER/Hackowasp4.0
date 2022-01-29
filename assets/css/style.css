@@ -169,7 +169,7 @@ section {
 .mentorbtn {
   margin: 10px 30px;
   padding: 5px 32px;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   border-radius: 5px !important;
   border: 2px solid white !important;
   background-color: white !important;
@@ -313,7 +313,7 @@ section {
     font-size: 16px;
   }
   .mentorbtn{
-    padding: 5px 62px;
+    padding: 5px 50px;
   }
 }
 
@@ -516,6 +516,14 @@ section {
 
 .phoneicon i {
   font-size: 42px;
+}
+
+.socialbox a:hover{
+  color: white !important;
+}
+.socialbox p{
+  position: relative;
+  top: 5px;
 }
 
 .phoneinfo p {

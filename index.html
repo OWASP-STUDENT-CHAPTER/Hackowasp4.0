@@ -403,7 +403,7 @@
 
 
 <!-- Chat  -->
-<div class="chatall">
+<!-- <div class="chatall">
     <div class="chatballon" id="chatarea">
         <span id="closebtn" class="kapat" style="margin-top: 7px; margin-right: 5px; z-index: 500;">X</span>
         <div class="chattitle">
@@ -415,7 +415,7 @@
         <div class="chatinput">
             <form action="https://web.whatsapp.com/send?" method="get" target="_blank">
                 <input type="text" name="phone" value="905313818338" hidden>
-                <!-- <input type="text" name="text" placeholder="Type here" autocomplete="off"> -->
+                
                 <p style="margin: 0px 10px;">Currently you can ask your query on <a href="https://discord.gg/vnpzPAD4HZ?event=932217755019665418">Discord</a></p>
                 <button class="chatsendbutton" type="submit">
                     <i class="fa fa-paper-plane-o"></i>
@@ -426,6 +426,34 @@
     <div id="chatbtn" class="chatbutton">
         <i class="fas fa-comment-dots"></i> <span style="position: relative; margin-left: 10px;">Chat with us
         !</span>
+    </div>
+</div> -->
+
+
+
+
+<!-- Chat  -->
+<div class="chatall">
+    <div class="chatballon" id="chatarea">
+        <span id="closebtn" class="kapat" style="margin-top: 7px; margin-right: 5px;">X</span>
+        <div class="chattitle">
+            Welcome Hacker!
+        </div>
+        <div class="chatmessage">
+
+        </div>
+        <div class="chatinput">
+            <form class="message-box" id="mymsg" method="POST">
+                <input type="text" id="MSG" name="MSG" class="message-input" placeholder="Type message..." >
+                <button class="chatsendbutton" type="submit">
+                <i class="fas fa-paper-plane"></i>
+                <!-- submit -->
+                </button>
+            </form>
+        </div>
+    </div>
+    <div id="chatbtn" class="chatbutton">
+        <i class="fas fa-comment-dots"></i><span style="position: relative; margin-left: 10px;">Chat with us !</span>
     </div>
 </div>
 
@@ -479,7 +507,7 @@
                             style="height: 44px; width: 312px"
                         ></div>
                         <button class="mentorbtn">
-                            <a class="" href="https://forms.gle/qLiDKJYT3bDNuduG7" target="_blank"><span>Apply as a Mentor</span></a>
+                            <a class="" href="https://forms.gle/qLiDKJYT3bDNuduG7" target="_blank"><span><i class="fas fa-user-graduate" style="margin-right: 10px;"></i>Apply as a Mentor</span></a>
                         </button>
                     </div>
                 
@@ -934,7 +962,7 @@
 </section>
 
 <!-- Prizes -->
-<section class="screenPad" id="prizes">
+<section class="screenPad" id="prizes" style="">
 
     <div class="row about-glimpses justify-content-around">
         <div class=" hackocard col-lg-10 cardSize timeLine-card">
@@ -1053,6 +1081,30 @@
                                         <div class="inner">
                                             <img src="./assets/media/allparticpants.png"
                                                  class="flex-img-prizes flex-img-prizes2" alt="">
+                                            <h2 class="bottom-prizes2">Top 10 Teams</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-back">
+                                    <div class="cf-inner">
+                                        <div class="inner">
+                                          <h1 style="color:black">COMING SOON</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="prizes-container">
+                            <div class="content-inner">
+                                <div class="content-front">
+                                    <div class="cf-inner cf-inner2">
+                                        <div class="bg"></div>
+                                        <div class="overlay"></div>
+                                        <div class="inner">
+                                            <img src="./assets/media/allparticpants.png"
+                                                 class="flex-img-prizes flex-img-prizes2" alt="">
                                             <h2 class="bottom-prizes2">All Participants</h2>
                                         </div>
                                     </div>
@@ -1066,6 +1118,8 @@
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
                 </div>
 
@@ -1768,12 +1822,12 @@
                         </div>
                         <!-- Facebook  -->
                         <div class="socialbox facebook">
-                            <a href="https://www.facebook.com/owasptsc/" target="_blank">
+                            <a href="https://discord.gg/qdGgRGxY6E?event=932217755019665418" target="_blank">
                                 <div class="iconbox">
-                                    <i class="fab fa-facebook"></i>
+                                    <i class="fab fa-discord"></i>
                                 </div>
                             </a>
-                            <p>Facebook</p>
+                            <p>Discord</p>
                         </div>
                     </div>
 
@@ -1849,8 +1903,8 @@
                     <a style="text-decoration: none;" target="blank" href="http://main.owasp.co.in/">
                         <li class="fas fa-globe web"></li>
                     </a>
-                    <a style="text-decoration: none;" target="blank" href="https://www.facebook.com/owasptsc">
-                        <li class="fab fa-facebook fb"></li>
+                    <a style="text-decoration: none;" target="blank" href="https://discord.gg/qdGgRGxY6E?event=932217755019665418">
+                        <li class="fab fa-discord fb"></li>
                     </a>
 
                 </ul>
@@ -1893,7 +1947,8 @@
 <script src="./assets/js/heroText.js"></script>
 <script src="./assets/js/socialTray.js"></script>
 <script src="./assets/js/timeline.js"></script>
-
+<script src='https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.concat.min.js'></script>
+<script src="./assets/js/chatBot.js"></script>
 <!-- Swiper JS -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <!-- Initialize Swiper   -->

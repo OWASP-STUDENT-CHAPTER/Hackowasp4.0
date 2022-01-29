@@ -339,9 +339,9 @@ figcaption {
 
 .flip-ul li{
   background-color: white;
-  height: 23px;
+  height: auto;
   border-radius: 20px;
-  width: 50%;
+  width: 100%;
 }
 
 /* li */
