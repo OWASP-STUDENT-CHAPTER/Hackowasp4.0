@@ -96,6 +96,13 @@
     display: none;
   }
 }
+
+.ln{
+  text-decoration: none !important;
+  color: #fff !important;
+  background-color: transparent;
+}
+
 /* @media (max-width: 500px) {
   .social-container .social-drop {
     height: 190px;
