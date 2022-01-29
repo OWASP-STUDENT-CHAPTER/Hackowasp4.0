@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
   .team-container{
     
@@ -177,6 +177,79 @@ html {
     margin-top: 3rem;
 }
 
+.team-row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.rect-pics{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 150px;
+  background-color: #fddd3a;
+}
+
+.rect-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 150px;
+  background-color: #f8f8f8;
+}
+
+.team-pics{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  bottom: 0;
+}
+
+.team-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.team-pics img{
+  margin: 0px 50px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 75px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.info p{
+  margin: 0;
+}
+
+.social{
+  margin-top: 10px;
+}
+
+.fa-linkedin, .fa-github{
+  color: black!important;
+  background-color: white!important;
+  font-size: 30px
+}
+
+/* Old  */
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 /* .flip-card-container */
