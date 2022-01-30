@@ -46,3 +46,25 @@
 .ca-applybtn:hover{
     color: white;
 }
+
+@media (max-width: 1100px){
+    
+}
+@media (max-width: 900px){
+    .ca-heading{
+        width: 800px;
+    }
+    .ca-heading h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 500px){
+    .ca-heading{
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+    }
+    .ca-heading h1{
+        font-size: 17px;
+    }
+}
