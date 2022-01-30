@@ -89,8 +89,8 @@ body{
 }
 
 .team-pics img{
-  margin-left:  200px;
-  margin-right: 200px;
+  margin-left:  100px;
+  margin-right: 100px;
   margin-block: justify;
 }
 
@@ -107,8 +107,8 @@ body{
 .info p{
   text-align: match-parent ;
   margin: 0px;
-  margin-right: 190px;
-  margin-left: 190px;
+  margin-right: 10vh;
+  margin-left: 10vh;
 }
 
 .social{
