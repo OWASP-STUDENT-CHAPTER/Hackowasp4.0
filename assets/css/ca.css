@@ -71,4 +71,9 @@
     .ca-heading h1{
         font-size: 17px;
     }
+    .ca-applybtn{
+        font-size: 15px;
+        padding-left: 25px;
+    }
+
 }
