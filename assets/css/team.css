@@ -57,7 +57,8 @@ body{
   justify-content: center;
   width: 90%;
   height: 150px;
-  background-color: #fddd3a;
+  /* background-color: #fddd3a; */
+  background-color: #77456ab4;
 }
 
 .rect-info{
