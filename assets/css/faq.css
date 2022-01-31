@@ -10,11 +10,11 @@
   overflow: hidden;
   width: 81vw;
   margin: auto;
-  padding-bottom: 20px !important;
+  padding-bottom: 8px !important;
 }
 
 .faq-header {
-  background-color: #765782;
+  background-color: #48728b;
   padding-bottom: 8px;
 }
 
@@ -182,7 +182,7 @@
   width: 0;
   height: 0;
   border: 10px solid transparent;
-  border-left-color: #a6597a;
+  border-left-color: #aa6a88;
   border-right: 0;
   margin-top: -10px;
   margin-right: -8px;
@@ -215,7 +215,7 @@
   width: 0;
   height: 0;
   border: 10px solid transparent;
-  border-right-color: #a6597a;
+  border-right-color: #ae708d;
   border-left: 0;
   margin-top: -10px;
   margin-left: -8px;

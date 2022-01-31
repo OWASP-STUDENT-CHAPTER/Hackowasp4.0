@@ -5,6 +5,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 /* @media only screen and (min-width: 1000px) {
   .cardSize {
     height: 75vh !important;
@@ -160,46 +162,33 @@ section {
 
 .register-buttons {
   margin-top: 50px;
-}
-
-.register-buttons button {
-  width: 280px;
-  margin: 0px 10px;
-  height: 50px;
-  border-radius: 10px;
-  border: none;
-  background-color: #3859ef;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  filter: drop-shadow(0px 3.69827px 1.84913px rgba(0, 0, 0, 0.25));
-}
-
-.register-buttons button:hover {
-  background-color: white;
-  color: #3859ef;
-  border: 1px solid white;
+  display: flex;
+  align-items: center;
 }
 
 .mentorbtn {
-  width: 250px;
-  margin: 0px 20px;
-  height: 50px;
-  border-radius: 10px;
-  border: none;
-  background-color: #3859ef;
-  color: white;
-  font-family: 'Roboto', sans-serif;
+  margin: 10px 30px;
+  padding: 5px 32px;
+  font-weight: 400 !important;
+  border-radius: 5px !important;
+  border: 2px solid white !important;
+  background-color: white !important;
+  color: #283340 !important;
   font-size: 20px;
+  letter-spacing: 0px !important;
   filter: drop-shadow(0px 3.69827px 1.84913px rgba(0, 0, 0, 0.25));
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.mentorbtn:hover a{
+ color: #283340 !important;
 }
 
 .mentorbtn a {
   display: flex;
-  color: white;
+  color: #283340 !important;
   text-decoration: none;
-  width: 250px;
-  /* height: 50px; */
+  text-align: center;
 }
 .aboutContent .teambtn {
   text-align: center;
@@ -214,7 +203,7 @@ section {
   height: 50px;
   border-radius: 10px;
   border: none;
-  background-color: #765782;
+  background-color: #765782 !important;
   color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
@@ -223,17 +212,18 @@ section {
 
 .teambtn a {
   display: flex;
-  color: white;
+  color: white !important;
   text-decoration: none;
   width: 250px;
+  cursor: no-drop !important;
   /* height: 50px; */
 }
 
-.teambtn:hover {
+/* .teambtn:hover {
   background-color: white;
   color: #201c39;
   border: 1px solid white;
-}
+} */
 
 #timer {
   display: flex;
@@ -247,6 +237,10 @@ section {
 
 .countdowntime {
   margin: 0px 10px;
+}
+
+.ourteambtn{
+  cursor: pointer !important;
 }
 
 #timer span {
@@ -278,7 +272,7 @@ section {
     margin-top: 100px;
   }
   .register-buttons button {
-    margin: 10px auto;
+    margin: 10px 30px;
   }
 
   #timer {
@@ -318,6 +312,9 @@ section {
   #timer p {
     font-size: 16px;
   }
+  .mentorbtn{
+    padding: 5px 50px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -325,17 +322,7 @@ section {
     margin-top: 60px;
   }
 
-  .register-buttons button {
-    width: 180px;
-    height: 40px;
-    font-size: 10px;
-  }
-  .register-buttons button {
-    margin: 10px auto;
-  }
-
   .mentorbtn {
-    width: 200px;
     margin: 0px 20px;
     height: 50px;
   }
@@ -384,6 +371,15 @@ section {
 }
 .about .cardHeader {
   background-color: #765782;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.problems{
+  background: radial-gradient(100% 100% at 0% 0%, rgba(72, 82, 116, 0.6) 0%, rgba(72, 82, 116, 0.02) 100%) !important;
+  backdrop-filter: blur(32px) !important;
+}
+.problems .cardHeader{
+  background-color: #2F4858;
   border-radius: 16px 16px 0px 0px;
 }
 
@@ -520,6 +516,14 @@ section {
 
 .phoneicon i {
   font-size: 42px;
+}
+
+.socialbox a:hover{
+  color: white !important;
+}
+.socialbox p{
+  position: relative;
+  top: 5px;
 }
 
 .phoneinfo p {

@@ -10,7 +10,6 @@
   backdrop-filter: blur(100px);
   color: white;
   border-radius: 16px;
-  width: 81%;
   box-shadow: 0 0 32px 8px rgba(53, 51, 51, 0.808);
   position: relative;
   padding-left: 0% !important;
@@ -19,12 +18,31 @@
   margin-bottom: 32px;
   overflow: hidden;
   overflow-x: hidden;
-  position: relative;
 }
 
-marquee{
-  height: 100%;
+.sponsor-carder{
+  width: auto !important;
+  height: auto !important;
+  position: relative;
+  left: 42.5%;
+  border-radius: 50px;
 }
+
+.abc{
+  text-align: center;
+}
+
+
+.sponsorbtn{
+  background-color: white !important;
+  color: black !important;
+  border-radius: 50px ;
+  border: none;
+  padding: 10px 40px;
+  position: relative;
+  margin: 1px;
+}
+
 
 .sponsor-card::-webkit-scrollbar {
   width: 5px;
@@ -39,7 +57,7 @@ marquee{
   backdrop-filter: blur(27.1277px) !important;
 }
 .platinum .cardHeader {
-  background-color: #765782;
+  background-color: #c2c1c1;
   border-radius: 16px 16px 0px 0px;
 }
 .gold {
@@ -52,7 +70,7 @@ marquee{
 }
 .gold .cardHeader {
   /* background-color: #D8BB21; */
-  background-color: #765782;
+  background-color: #c7ae22;
   border-radius: 16px 16px 0px 0px;
 }
 .silver {
@@ -65,49 +83,57 @@ marquee{
 }
 .silver .cardHeader {
   /* background-color: #C0C0C0; */
-  background-color: #765782;
+  background-color: #a1a1a1;
   border-radius: 16px 16px 0px 0px;
 }
 
 .sponsor-img {
-  /* justify-content: center; */
-  /* align-items: center; */
-  width: 140px;
-  height: 70px;
-
-  /* border: 2px solid rgba(0, 0, 0, 0.767); */
+  width: 150px;
+  height: 60px;
   border-radius: 10px;
-  box-shadow: 0 0 15px 8px rgba(39, 21, 11, 0.808);
   position: relative;
   margin-top: 10%;
   margin-bottom: 10%;
+  transition: 0.5s box-shadow;
 }
 .sponsor-img-platinum {
-  /* justify-content: center; */
-  /* align-items: center; */
-  width: 180px;
-  height: 100px;
-
-  /* border: 2px solid rgba(0, 0, 0, 0.767); */
-
+  width: 300px;
+  height: 120px;
   border-radius: 10px;
-  box-shadow: 0 0 15px 8px rgba(39, 21, 11, 0.808);
   position: relative;
   margin-top: 10%;
   margin-bottom: 10%;
+  transition: 0.5s box-shadow;
+}
+.gold{
+  height: auto !important;
+  width: 100% !important;
+}
+.platinum{
+  height: auto !important;
+  width: 100% !important;
+}
+.silver{
+  height: auto !important;
+  width: 100% !important;
+}
+.sponsor-img-platinum:hover{
+  box-shadow: 0 0 15px 8px rgba(39, 21, 11, 0.808);
 }
 .sponsor-img-gold {
-  /* justify-content: center; */
-  /* align-items: center; */
-  width: 160px;
+  width: 200px;
   height: 80px;
-
-  /* border: 2px solid rgba(0, 0, 0, 0.767); */
   border-radius: 10px;
-  box-shadow: 0 0 15px 8px rgba(39, 21, 11, 0.808);
   position: relative;
   margin-top: 10%;
   margin-bottom: 10%;
+  transition: 0.5s box-shadow;
+}
+.sponsor-img-gold:hover{
+  box-shadow: 0 0 15px 8px rgba(39, 21, 11, 0.808);
+}
+.sponsor-img:hover{
+  box-shadow: 0 0 15px 8px rgba(39, 21, 11, 0.808);
 }
 
 .sponsor-img1 {
@@ -118,31 +144,37 @@ marquee{
 
 @media only screen and (max-width: 1025px) {
   .sponsor-img-platinum {
-    width: 150px;
-    height: 80px;
+    width: 200px;
+    height: 110px;
   }
   .sponsor-img-gold {
-    width: 120px;
-    height: 60px;
+    width: 160px;
+    height: 80px;
   }
   .sponsor-img {
     width: 100px;
-    height: 50px;
+    height: 40px;
+  }
+  .sponsor-carder{
+    left: 40%;
   }
 }
 
 @media only screen and (max-width: 769px) {
   .sponsor-img-platinum {
-    width: 400px;
-    height: 200px;
-  }
-  .sponsor-img-gold {
-    width: 300px;
-    height: 150px;
-  }
-  .sponsor-img {
     width: 150px;
     height: 80px;
+  }
+  .sponsor-img-gold {
+    width: 110px;
+    height: 60px;
+  }
+  .sponsor-img {
+    width: 110px;
+    height: 60px;
+  }
+  .sponsor-carder{
+    left: 34%;
   }
 }
 
@@ -158,6 +190,9 @@ marquee{
   .sponsor-img {
     width: 140px;
     height: 80px;
+  }
+  .sponsor-carder{
+    left: 20%;
   }
 }
 
@@ -188,6 +223,12 @@ marquee{
   }
 }
 
+@media only screen and (max-width: 376px){
+  .sponsor-carder{
+    left: 18%;
+  }
+}
+
 @media only screen and (max-width: 361px) {
   .sponsor-img-platinum {
     width: 200px;
@@ -198,8 +239,11 @@ marquee{
     height: 90px;
   }
   .sponsor-img {
-    width: 120px;
+    width: 140px;
     height: 70px;
+  }
+  .sponsor-carder{
+    left: 16%;
   }
 }
 
@@ -215,5 +259,8 @@ marquee{
   .sponsor-img {
     width: 100px;
     height: 60px;
+  }
+  .sponsor-carder{
+    left: 12%;
   }
 }
