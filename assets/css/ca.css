@@ -19,6 +19,7 @@
 
 .ca-heading h1 {
   font-size: 50px;
+  margin: 10px;
 }
 
 .applydiv {
@@ -34,31 +35,65 @@
   justify-content: center;
   font-size: 25px;
   height: 50px;
-  width: 30%;
-  margin-top: 32px;
+  width: 20%;
+  margin-top: 50px;
   background-color: #765782;
   color: white;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
+  border-radius: 50px;
   text-decoration: none;
   padding: 8px 16px;
   transition: all 100ms;
 }
 
+.perkss{
+  position: relative;
+  right: -30px;
+}
+.reqss{
+  position: relative;
+  left: -30px;
+}
+
 .ca-applybtn:hover {
   color: white;
   box-shadow: 0px 0px 32px 4px rgba(255, 255, 255, 0.459);
-  transform: translateY(-8px);
 }
 
 @media (max-width: 1100px) {
+  .perkss{
+    position: relative;
+    right: -10px;
+  }
+  .reqss{
+    position: relative;
+    left: -10px;
+  }
+  .ca-heading h1 {
+    font-size: 40px;
+  }
+  .ca-applybtn{
+    margin-top: 32px;
+    width: 30%;
+  }
 }
 @media (max-width: 900px) {
+  .perkss{
+    position: relative;
+    right: 0px;
+  }
+  .reqss{
+    position: relative;
+    left: 0px;
+  }
   .ca-heading {
     width: 800px;
   }
   .ca-heading h1 {
-    font-size: 40px;
+    font-size: 35px;
+  }
+  .ca-applybtn{
+    width: 50%;
   }
 }
 @media (max-width: 500px) {
@@ -68,10 +103,17 @@
     justify-content: center;
   }
   .ca-heading h1 {
-    font-size: 17px;
+    font-size: 20px;
+    text-align: center;
   }
   .ca-applybtn {
     font-size: 15px;
-    width: auto;
+    width: 70%;
+    position: relative;
+    top: -20px;
   }
+  .hider{
+    display: none !important;
+  }
+
 }
