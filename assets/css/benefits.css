@@ -6,6 +6,15 @@
   left: 8.3%;
   
 }
+
+@media screen and (max-width:821px) {
+  .CardPrizes{
+    width: 107%;
+    position: relative;
+    left: 0%; 
+  }
+}
+
 .CardPrizes2{
   padding: 0px 0px;
   overflow-x: hidden;
@@ -48,6 +57,7 @@ body .pratcontainer .pratcard .face.face1 h2 {
   padding: 0;
 }
 body .pratcontainer .pratcard .face.face1 .java {
+  text-align: center;
   background-color: #fd73ff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -69,7 +79,7 @@ body .pratcontainer .pratcard .face.face2 {
 body .pratcontainer .pratcard .face.face2 h2 {
   margin: 0;
   padding: 0;
-  font-size: 5em;
+  font-size: 3.5em;
   color: #fff;
   transition: 0.5s;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -83,6 +93,22 @@ body .pratcontainer .pratcard .face3 h2 {
 body .pratcontainer .pratcard:hover .face.face2 {
   height: 60px;
 }
+
+body .pratcontainer .pratcard .mn1 {
+  display: none;
+}
+body .pratcontainer .pratcard .mn {
+  display: block;
+}
+
+body .pratcontainer .pratcard:hover .mn1 {
+  display: block;
+}
+body .pratcontainer .pratcard:hover .mn {
+  display: none;
+}
+
+
 body .pratcontainer .pratcard:hover .face.face2 h2 {
   font-size: 2em;
   margin-left: 0px;
@@ -93,19 +119,49 @@ body .pratcontainer .pratcard:hover .face3 h2 {
   margin-left: 0px;
 }
 
+/* body .ello {
+
+  background: #8A2387;  
+  background: -webkit-linear-gradient(to bottom, #dd702d, #E94057, #370b70);  
+  background: linear-gradient(to bottom, #dd702d,#8A2387, #370b70  );
+  border-radius: 15px;
+} */
 body .ello {
-  background: #9b69aa;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #965895, #7149A1);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #965895, #7149A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  border-radius: 15px;
+  background-image: url("../media/1st.png");
+  background-size: cover;
 }
+.pratcard:hover .ello, .pratcard:hover .ello1, .pratcard:hover .ello2, .pratcard:hover .ello3, .pratcard:hover .ello4{
+ background-image: none;
+ background: #9b69aa;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to bottom, #611488, #0d0334);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to top, #611488, rgb(68, 5, 83),#2a0334, black); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 body .ello1 {
-  background: #9b69aa;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #965895, #7149A1);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #965895, #7149A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-radius: 15px;
+  background-image: url("../media/2nd.png");
+  background-size: cover;
 }
+body .ello2 {
+  background-image: url("../media/3rd.png");
+  background-size: cover;
+}
+body .ello3 {
+  background-image: url("../media/4th.png");
+  background-size: cover;
+}
+body .ello4 {
+  background-image: url("../media/5th.png");
+  background-size: cover;
+}
+
+@media screen and (max-width:500px){
+  body .ello1 {
+    background-size: contain!important;
+    max-height: 400px;
+    background-repeat: no-repeat;
+  }
+}
+
 
 @media screen and (max-width:450px) {
   body .pratcontainer .pratcard:hover .face.face2 h2 {
@@ -113,7 +169,7 @@ body .ello1 {
     margin-left: 0px;
   }
   body .pratcontainer .pratcard .face.face2 h2 {
-    font-size: 3em;
+    font-size: 1.5em!important;
   }
   body .pratcontainer .pratcard:hover .face3 h2 {
     font-size: 1.2em !important;
@@ -127,8 +183,32 @@ body .ello1 {
   }
 }
 
+@media screen and (max-width:376px){
+  body .pratcontainer .pratcard .face2 h2 {
+    font-size: 2.3em !important;
+  }
+}
+
 @media screen and (max-width:321px){
   body .pratcontainer .pratcard .face3 h2 {
     font-size: 1.3em !important;
   }
+}
+/* .heading1{
+  font-size: 2em!important;
+} */
+.sponsor-content{
+  font-size: .7em;
+}
+
+body .hello {
+  background: #9b69aa;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #965895, #7149A1);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #965895, #7149A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+  
+  
+  
+  border-radius: 15px;
 }
