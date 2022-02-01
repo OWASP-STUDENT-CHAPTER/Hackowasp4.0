@@ -39,6 +39,20 @@ section {
 
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 5px;
+  background: #6a5c7d; 
+}
+
 
 
 .floating {
@@ -379,7 +393,7 @@ section {
   backdrop-filter: blur(32px) !important;
 }
 .problems .cardHeader{
-  background-color: #2F4858;
+  background-color: #765782;
   border-radius: 16px 16px 0px 0px;
 }
 

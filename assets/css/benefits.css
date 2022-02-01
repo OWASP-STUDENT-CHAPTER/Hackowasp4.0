@@ -4,7 +4,6 @@
   width: 85%;
   position: relative;
   left: 8.3%;
-  overflow-y: hidden;
 }
 
 @media screen and (max-width:821px) {
