@@ -17,8 +17,7 @@
 
 .CardPrizes2{
   padding: 0px 0px;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden !important;
 }
 
 .carderprizer{
@@ -156,7 +155,7 @@ body .ello4 {
   background-size: cover;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
   body .ello1, body .ello2, body .ello3, body .ello4, body .ello {
     background-repeat: no-repeat;
     background-position: center;
