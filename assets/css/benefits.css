@@ -1,300 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@400;500;600;700&family=Poppins:wght@200;300;400;600;700&display=swap');
-
-
-:root {
-  --opensans: 'Open Sans', sans-serif;
-  --oswald: 'Oswald', sans-serif;
-  --poppins: 'Poppins', sans-serif;
-}
-
-.flex-prizes{
-  display: flex;
-  flex-direction: column;
-}
-#flex-2nd{
-  display: flex;
-  justify-content: center;
-}
-
-#flex-3rd{
-  display: flex;
-  justify-content: center;
-}
-
-.flex-img-prizes{
-
-  width: fit-content;
-}
-
-#prizes{
+.CardPrizes{
+  width: 85%;
   position: relative;
-  margin-left: 8%;
-  width: 84%;
-}
-
-@media screen and (max-width:1025px) {
-  #prizes{
-    width: 100%;
-    position: relative;
-    margin-left: 0%;
-  }
-}
-
-
-.prizes-container{
-    height: auto;
-    padding-top: 0%;
-  }
+  left: 8.3%;
   
-  .content-inner{
-    padding: 5% 10%;
-    width: 100%;
-    color: #fff;
-    position: relative;
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
-    transition: .9s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
+}
+.CardPrizes2{
+  padding: 0px 0px;
+  overflow-x: hidden;
+}
 
-  .content-inner3{
-    padding: 5% 20% !important;
-  }
+.carderprizer{
+  background-color: #765782 !important;
+}
 
-  .content-inner2{
-    padding: 10% 10% !important;
-  }
+body .pratcontainer {
+  max-width: 100vw;
+  padding: 20px 50px;
   
-   
-  .content-inner:hover .content-front{
-    transform: rotateY(-180deg);
-  }
-   
-  .content-inner:hover .content-back{
-    transform: rotateY(0deg);
-  }
-   
-  .content-inner .content-front, .content-inner .content-back{
-    position: relative;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-    backface-visibility: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-  }
-   
-  .content-front{
-    background: rgba(255, 255, 255, 0.19);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    height: 350px;
-  }
+}
+body .pratcontainer .pratcard {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 30px auto;
+  background: #000;
+  border-radius: 15px;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+}
+body .pratcontainer .pratcard .face {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .pratcontainer .pratcard .face.face1 {
+  box-sizing: border-box;
+  padding: 20px;
+}
+body .pratcontainer .pratcard .face.face1 h2 {
+  margin: 0;
+  padding: 0;
+}
+body .pratcontainer .pratcard .face.face1 .java {
+  background-color: #fd73ff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body .pratcontainer .pratcard .face.face1 .python {
+  background-color: #fd73ff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body .pratcontainer .pratcard .face.face1 .cSharp {
+  background-color: #fd73ff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body .pratcontainer .pratcard .face.face2 {
+  transition: 0.5s;
+  text-align: center;
+}
+body .pratcontainer .pratcard .face.face2 h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 5em;
+  color: #fff;
+  transition: 0.5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
 
-  .content-front2{
-    height: 300px;
-  }
-  .content-inner > *{
-    transition: .9s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-   
-  .content-inner .cf-inner{
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
-    width: 80%;
-    /* padding: 100px 30px; */
-  }
+body .pratcontainer .pratcard .face3 h2 {
+  font-size: 2em !important;
+}
+
+body .pratcontainer .pratcard:hover .face.face2 {
+  height: 60px;
+}
+body .pratcontainer .pratcard:hover .face.face2 h2 {
+  font-size: 2em;
+  margin-left: 0px;
+}
+
+body .pratcontainer .pratcard:hover .face3 h2 {
+  font-size: 1.4em !important;
+  margin-left: 0px;
+}
+
+body .ello {
+  background: #9b69aa;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #965895, #7149A1);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #965895, #7149A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
-  .content-inner .cf-inner2{
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
-    width: 80%;
-    /* padding: 60px 0px !important; */
-  }
-
-
-  .content-front .cf-inner:before, .content-front .cf-inner:after{
-    content: "";
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    z-index: 10;
-  }
-  
-   
-  .content-inner .cf-inner .inner{
-    align-items: stretch;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-    backface-visibility: hidden;
-    transform: translateZ(95px) scale(0.81);
-    text-align: center;
-    position: relative;
-    z-index: 2;
-  }
-   
-  .content-inner .cf-inner .inner h2{
-    position: relative;
-    font-size: 22px;
-    font-weight: 800;
-    padding-bottom: 20px;
-    color: #fff;
-  }
-   
-  .content-inner .cf-inner .inner h2:before{
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: 10px;
-    width: 20px;
-    height: 2px;
-    margin-left: -10px;
-  }
-   
-
-  .content-inner .cf-inner .inner h4{
-    display: inline-block;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 2px;
-    margin: 0 4px;
-  }
-   
-  .serv-num{
-    position: absolute;
-    bottom: 20px;
-    left: 30px;
-    color: #fff;
-    z-index: 3;
-    font-size: 20px;
-  }
-   
-  .content-inner .content-back{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 90%;
-    z-index: 0;
-    transform: rotateY(180deg);
-    background: rgba(255, 255, 255, 0.36);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5.6px);
-    -webkit-backdrop-filter: blur(5.6px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-  }
-   
-  .content-back .dec-icon{
-    top: -20px;
-  }
-   
-  .dec-icon{
-    position: relative;
-    display: inline-table;
-    width: 80px;
-    height: 80px;
-  }
-   
-  .dec-icon:before{
-    left: -15px;
-    top: 12px;
-  }
-   
-  .dec-icon:after{
-    right: -15px;
-    bottom: 12px;
-  }
-   
-  .dec-icon:before, .dec-icon:after{
-    content: "";
-    position: absolute;
-    width: 60px;
-    height: 10px;
-    border-radius: 10px;
-    background: rgba(255, 255, 255, .1);
-  }
-
-  .bottom-prizes{
-    position: relative;
-    top: 50px;
-    letter-spacing: 1px;
-  }
-
-  .bottom-prizes2{
-    position: relative;
-    top: 10px;
-    letter-spacing: 1px;
-  }
-   
-  .content-back i{
-    font-size: 54px;
-    position: relative;
-  }
-   
-  .fas{
-    font-weight: 300;
-    font-family: 'Font Awesome\ 5 Free';
-  }
-   
-  .fa-utensils:before{
-    content: "\f2e7";
-  }
-   
-  .content-inner .cf-inner .inner p{
-    color: #fff;
-    font-size: 13px;
-    line-height: 24px;
-    padding-bottom: 10px;
-    font-weight: 400;
-  }
-
-.flex-img-prizes{
-
-  width: 80%;
+  border-radius: 15px;
+}
+body .ello1 {
+  background: #9b69aa;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #965895, #7149A1);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #965895, #7149A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 15px;
 }
 
-.flex-img-prizes2{
-
-  width: 80%;
-}
-
-@media screen and (max-width: 1025px) {
-  .content-front2{
-    height: 250px;
+@media screen and (max-width:450px) {
+  body .pratcontainer .pratcard:hover .face.face2 h2 {
+    font-size: 1.6em;
+    margin-left: 0px;
   }
-}
- 
-
-@media screen and (max-width:769px) {
-  .content-inner{
-    padding: 10% 10%;
+  body .pratcontainer .pratcard .face.face2 h2 {
+    font-size: 3em;
   }
-  .content-front{
-    height: 300px;
+  body .pratcontainer .pratcard:hover .face3 h2 {
+    font-size: 1.2em !important;
+    margin-left: 0px;
+  }
+  body .pratcontainer .pratcard .face3 h2 {
+    font-size: 1.6em !important;
+  }
+  .face3{
+    padding: 20px;
   }
 }
 
-
-@media screen and (max-width: 500px) {
-  .cf-inner {
-    width: 100%;
-  }
-  #flex-2nd{
-    display: block;
-  }
-  .prizes-screen{
-    display: block !important;
-  }
-  .flex-prizes{
-    display: block !important;
-  }
-  .content-inner3{
-    padding: 5% 10% !important;
+@media screen and (max-width:321px){
+  body .pratcontainer .pratcard .face3 h2 {
+    font-size: 1.3em !important;
   }
 }
