@@ -4,7 +4,7 @@
   width: 85%;
   position: relative;
   left: 8.3%;
-  
+  overflow-y: hidden;
 }
 
 @media screen and (max-width:821px) {
@@ -18,6 +18,7 @@
 .CardPrizes2{
   padding: 0px 0px;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .carderprizer{
@@ -35,7 +36,7 @@ body .pratcontainer .pratcard {
   height: 400px;
   margin: 30px auto;
   background: #000;
-  border-radius: 15px;
+  border-radius: 30px;
   box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
 }
 body .pratcontainer .pratcard .face {
@@ -73,8 +74,9 @@ body .pratcontainer .pratcard .face.face1 .cSharp {
   -webkit-text-fill-color: transparent;
 }
 body .pratcontainer .pratcard .face.face2 {
-  transition: 0.5s;
+  transition: 0.8s ease-in-out;
   text-align: center;
+  border-radius: 30px;
 }
 body .pratcontainer .pratcard .face.face2 h2 {
   margin: 0;
@@ -127,7 +129,7 @@ body .pratcontainer .pratcard:hover .face3 h2 {
   border-radius: 15px;
 } */
 body .ello {
-  background-image: url("../media/1st.png");
+  background-image: url("https://res.cloudinary.com/thapar-institutes/image/upload/v1643753217/1st_hcu2zf.png");
   background-size: cover;
 }
 .pratcard:hover .ello, .pratcard:hover .ello1, .pratcard:hover .ello2, .pratcard:hover .ello3, .pratcard:hover .ello4{
@@ -138,27 +140,26 @@ body .ello {
 }
 
 body .ello1 {
-  background-image: url("../media/2nd.png");
+  background-image: url("https://res.cloudinary.com/thapar-institutes/image/upload/v1643753217/2nd_tkr6hn.png");
   background-size: cover;
 }
 body .ello2 {
-  background-image: url("../media/3rd.png");
+  background-image: url("https://res.cloudinary.com/thapar-institutes/image/upload/v1643753217/3rd_sj9dve.png");
   background-size: cover;
 }
 body .ello3 {
-  background-image: url("../media/4th.png");
+  background-image: url("https://res.cloudinary.com/thapar-institutes/image/upload/v1643753217/4th_nfgnu6.png");
   background-size: cover;
 }
 body .ello4 {
-  background-image: url("../media/5th.png");
+  background-image: url("https://res.cloudinary.com/thapar-institutes/image/upload/v1643753217/5th_p8k8dg.png");
   background-size: cover;
 }
 
 @media screen and (max-width:500px){
-  body .ello1 {
-    background-size: contain!important;
-    max-height: 400px;
+  body .ello1, body .ello2, body .ello3, body .ello4, body .ello {
     background-repeat: no-repeat;
+    background-position: center;
   }
 }
 
