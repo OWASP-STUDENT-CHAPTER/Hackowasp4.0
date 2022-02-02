@@ -20,7 +20,7 @@
 }
 
 .carouselPlace {
-  padding-top: 30px !important;
+  padding-top: 60px !important;
 }
 
 .dots_container {
@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 1024px) {
   .carouselPlace {
-    padding-top: 100px !important;
+    padding-top: 120px !important;
   }
 }
 
@@ -57,6 +57,9 @@
   }
   .container1 {
     top: -75%;
+  }
+  .carouselPlace {
+    padding-top: 90px !important;
   }
 }
 
