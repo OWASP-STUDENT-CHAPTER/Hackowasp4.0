@@ -74,43 +74,47 @@ body{
 
 .team-pics{
   position: absolute;
+  width: 80%;
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  justify-content: center;
+  justify-content: space-between;
   bottom: 0;
 }
 
 .team-info{
   display: flex;
   flex-direction: row;
+  width: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   text-align: left;
 }
 
 .team-pics img{
-  margin-left:  100px;
-  margin-right: 100px;
+  /* margin-left:  100px;
+  margin-right: 100px; */
   margin-block: justify;
 }
 
 .info{
   display: flex;
+  flex: 1;
   text-size-adjust: auto;
   flex-direction: column;
   align-items: center;
-  justify-content: auto;
+  justify-content: center;
   font-size: 16px;
   color: black;
   text-align: center;
+  margin: 0 auto;
+  
 }
 
 .info p{
   text-align: match-parent ;
   margin: 0px;
-  margin-right: 10vh;
-  margin-left: 10vh;
+  padding: 0 20px;
 }
 
 .social{
