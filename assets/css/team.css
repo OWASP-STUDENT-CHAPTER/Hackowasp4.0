@@ -2,9 +2,10 @@ html {
     overflow: scroll;
     overflow-x: hidden;
 }
-.team-screen ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
+.teamCard ::-webkit-scrollbar {
+    width: 6px;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
+    
 }
 
 body{
@@ -41,6 +42,11 @@ body{
 
 .teamCard{
   padding-bottom: 32px;
+}
+.teamWrapper 
+{
+  height: 95vh;
+  overflow-y: scroll;
 }
 
 .team-row{
