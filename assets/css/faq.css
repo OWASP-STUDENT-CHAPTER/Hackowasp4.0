@@ -30,9 +30,28 @@
   }
 }
 
+@media (max-width: 415px) {
+  .faqcontainer {
+    width: 87.5vw;
+  }
+}
+@media (max-width: 376px) {
+  .faqcontainer {
+    width: 87vw !important;
+  }
+}
+@media (max-width: 321px) {
+  .faqcontainer {
+    width: 85vw !important;
+  }
+}
+
+
+
+
 @media (max-width: 500px) {
   .faqcontainer {
-    width: 80vw;
+    width: 87.5vw;
   }
   .grid-container {
     display: grid;
