@@ -42,10 +42,11 @@ body{
 
 .teamCard{
   padding-bottom: 32px;
+  height: 150vh;
 }
 .teamWrapper 
 {
-  height: 95vh;
+  height: 150vh;
   overflow-y: scroll;
 }
 
