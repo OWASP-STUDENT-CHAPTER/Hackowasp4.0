@@ -12,11 +12,11 @@ html {
     /* font-size: 62.5%; */
 }
 
-/* @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     html {
         font-size: 57%;
     }
-} */
+}
 
 body {
     background-color: #000;
