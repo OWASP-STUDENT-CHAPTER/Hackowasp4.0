@@ -51,6 +51,11 @@ body{
   height: 150vh;
   
 }
+
+.teamCardmobile{
+  display: none;
+}
+
 .teamWrapper 
 {
   height: 150vh;
@@ -140,43 +145,17 @@ body{
   font-size: 32px;
 }
 
-.hidden-on-phone{
-  display: flex;
-  flex-direction: row;
-}
-
-.hidden-on-pc{
-  display: none;
-  flex-direction: row;
-}
-
-@media screen and (max-width:1025px){
-  .team-pics{
-    width: 85%;
+/* ------ */
+@media(max-width:900px){
+  .teamCard{
+    display: none;
   }
-}
-
-@media screen and (max-width:769px){
-  #team-heading{
-    margin: 0px 0px;
+  .teamCardmobile{
+    display: flex;
   }
-  .team-pics{
-    width: 90%;
+  .team-pics-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-}
-
-@media screen and (max-width:420px){
-
-}
-
-@media screen and (max-width:376px){
-  
-}
-
-@media screen and (max-width:361px){
-  
-}
-
-@media screen and (max-width:321px){
-  
 }
