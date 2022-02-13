@@ -44,6 +44,11 @@ body{
   padding-bottom: 32px;
   height: 150vh;
 }
+
+.teamCardmobile{
+  display: none;
+}
+
 .teamWrapper 
 {
   height: 150vh;
@@ -133,4 +138,16 @@ body{
 }
 
 /* ------ */
-
+@media(max-width:900px){
+  .teamCard{
+    display: none;
+  }
+  .teamCardmobile{
+    display: flex;
+  }
+  .team-pics-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
