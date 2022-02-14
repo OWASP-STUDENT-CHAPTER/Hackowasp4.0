@@ -229,7 +229,7 @@ section {
   color: white !important;
   text-decoration: none;
   width: 250px;
-  cursor: no-drop !important;
+  /* cursor: no-drop !important; */
   /* height: 50px; */
 }
 
