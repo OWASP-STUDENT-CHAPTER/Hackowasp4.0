@@ -175,7 +175,7 @@ section {
 }
 
 .register-buttons {
-  margin-top: 50px;
+  margin-top: 5px;
   display: flex;
   align-items: center;
 }
@@ -229,7 +229,7 @@ section {
   color: white !important;
   text-decoration: none;
   width: 250px;
-  cursor: no-drop !important;
+  /* cursor: no-drop !important; */
   /* height: 50px; */
 }
 
