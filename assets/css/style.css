@@ -405,6 +405,57 @@ section {
   padding-top: 40px;
 }
 
+#mlhPrizes .pad{
+  padding-right: 40px !important;
+  padding-left: 40px !important;
+}
+#mlhPrizes .mlh{
+  background: linear-gradient(180deg, #965895 0%, #7149A1 81.04%);
+  border: 2px solid black;
+  padding: 16px;
+  transition: all 200ms;
+}
+#mlhPrizes .mlh:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 4px 12px 4px rgba(36, 36, 36, 0.5);
+}
+#mlhPrizes .hori{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#mlhPrizes .vert{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#mlhPrizes .mlh .dk{
+  width: 160% !important;
+}
+#mlhPrizes .mlh .go{
+  margin-top: -60px !important;
+}
+#mlhPrizes .mlh .txt{
+  margin-left: 28px;
+}
+#mlhPrizes .mlh .txt h3{
+  font-size: 24px;
+}
+#mlhPrizes .mlh .txt h5{
+  font-size: 16px;
+  font-weight: 400;
+}
+@media(max-width: 768px) {
+  #mlhPrizes .hori{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 /* Footer  */
 
 .aboutFooter {
