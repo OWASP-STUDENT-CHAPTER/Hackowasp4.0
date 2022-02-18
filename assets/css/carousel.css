@@ -45,7 +45,7 @@
   background: #696969 !important;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1030px) {
   .carouselPlace {
     padding-top: 120px !important;
   }
