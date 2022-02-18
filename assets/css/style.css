@@ -454,6 +454,15 @@ section {
     align-items: center;
     justify-content: center;
   }
+  #mlhPrizes .vert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #mlhPrizes .vert {
+    padding-right: 56px !important;
+  }
 }
 
 /* Footer  */
