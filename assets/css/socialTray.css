@@ -34,7 +34,7 @@
   padding-left: 36px;
 }
 .social-container .social-drop {
-  height: 300px;
+  height:fit-content;
   width: 70px;
   background: radial-gradient(
     100% 70% at 0% 0%,
