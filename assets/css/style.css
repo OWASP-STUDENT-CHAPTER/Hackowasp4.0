@@ -758,6 +758,7 @@ section {
   font-weight: 600;
   font-size: 1.5em;
   letter-spacing: 1px;
+  color: white;
 }
 
 .ml6 .text-wrapper {
@@ -772,4 +773,10 @@ section {
 .ml6 .letter {
   display: inline-block;
   line-height: 1em;
+}
+
+@media screen and (max-width:500px) {
+  .ml6 {
+    color: black;
+  }
 }
