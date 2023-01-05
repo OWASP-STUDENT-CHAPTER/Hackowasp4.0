@@ -39,6 +39,19 @@ section {
 
 }
 
+.hacko5-heading{
+  font-size: 65px;
+  color: white;
+  background-color: rgba(79, 62, 104, 0.693);
+  padding: 0px 5px;
+  border-radius: 10px;
+  
+}
+
+.otto{
+  color: gold;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -104,7 +117,7 @@ section {
 }
 
 #tagline {
-  color: white;
+  color: rgb(255, 0, 0);
   letter-spacing: 1px;
   font-size: 1.4em;
   font-weight: 600;
@@ -115,8 +128,8 @@ section {
 
 
 .otto {
-  color: white;
-  text-shadow: 0 2px 1px rgba(0,0,0,0.5);
+  color: gold;
+  text-shadow: 0 2px 1px rgba(255, 0, 0, 0.5);
 }
 @media only screen and (max-width: 600px)
 {
